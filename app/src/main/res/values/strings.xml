@@ -1,0 +1,1235 @@
+<resources>
+    <string name="app_name">TinyVPN</string>
+    <string name="textview_server">Select Server:</string>
+    <string name="today">Today:&#160;</string>
+    <string name="month">This month:&#160;</string>
+    <string name="status">User status:&#160;</string>
+    <string name="send_email">support: tinyvpn9@protonmail.com</string>
+
+
+
+
+
+    <!-- app -->
+    <!--以前ios和android共用一个应用-->
+    <string name="app_id">@string/facebook_app_id</string>
+    <string name="facebook_app_id">1140209646016765</string>
+    <string name="fb_login_protocol_scheme">fb1140209646016765</string>
+    <!--测试登录和测试埋点使用的账号-->
+    <string name="facebook_test_app_id">363141657703978</string>
+    <string name="fb_test_login_protocol_scheme">fb363141657703978</string>
+    <!-- network -->
+    <string name="network_no_data_title" td_lan_id="LAN_841">No Data Network</string>
+    <string name="network_no_data_text" td_lan_id="**LAN_843?">Your device does not have network connection, please check cellular signal. You can also connect your device to a WiFi network. Please come back and retry when your device has good network connection.</string>
+    <string name="network_error_title" td_lan_id="LAN_842">Network Error</string>
+    <string name="network_error_text" td_lan_id="LAN_845">Your device failed to connect to the SkyVpn servers.  Please ensure that your device has a good cellular signal or WiFi connection and try again.</string>
+    <!-- update -->
+    <string name="update_dialog_title" td_lan_id="LAN_663">New Version Available</string>
+    <string name="update_dialog_btn_download" td_lan_id="LAN_747">Download</string>
+
+    <!-- sign up and login -->
+    <string name="login">Login</string>
+    <string name="server_response_unreached" td_lan_id="LAN_1181">Could not connect to the servers! Please try again later.</string>
+    <string name="activation_failed_title" td_lan_id="LAN_93">Activation Failed</string>
+    <string name="cancel">Cancel</string>
+    <!-- contact -->
+    <string name="dingtone_id" td_lan_id="LAN_204">SkyVPN ID: </string>
+    <!-- check in -->
+    <string name="checkin_check_in" td_lan_id="LAN_1621">Check in Now</string>
+    <string name="check_in_ok_text" td_lan_id="**LAN_2371">You received %1$sMB free traffic.</string>
+    <string name="checkin_notification_remind_text" td_lan_id="LAN_547">Reminder:  Check in on SkyVPN to earn free traffic.</string>
+    <string name="checkin_title" td_lan_id="LAN_1619">Daily Check-In</string>
+    <string name="checkin_remind_me" td_lan_id="LAN_1622">Remind me to check in daily</string>
+    <string name="checkin_acount_blance" td_lan_id="LAN_1626">Your Account Balance</string>
+    <string name="checkin_result_ok" td_lan_id="LAN_1623">You earned %1$s MB! \nCheck in again tomorrow.</string>
+    <string name="checkin_result_repeat" td_lan_id="LAN_1624">You have already checked in today. \nCheck out today\'s special offer.</string>
+    <string name="checkin_redeem_now" td_lan_id="LAN_1638">Redeem Coupon Now &gt;&gt;</string>
+    <string name="checkin_bottom_1" td_lan_id="LAN_1633">%1$s people checked in today!</string>
+
+    <!-- checkin star level -->
+    <string name="checkin_level_title" td_lan_id="LAN_2517">Want to become a star user?</string>
+    <string name="checkin_level_title_one" td_lan_id="LAN_2496">Become a Star User</string>
+    <string name="checkin_level_title_two" td_lan_id="LAN_2510">Want to become a super star?</string>
+    <string name="checkin_level_title_full" td_lan_id="LAN_2507">Continue to be a Super Star!</string>
+    <string name="checkin_level_message_one" td_lan_id="**LAN_2512">Check in 7 days in a row and get at least 175MB traffic by watching ads or completing offers</string>
+    <string name="checkin_level_benefits" td_lan_id="LAN_2503">Super Star users \nget even more benefits!</string>
+    <string name="checkin_level_benefits_full" td_lan_id="LAN_2513">As a super star user, you earn more free traffic for check-in.</string>
+    <string name="checkin_history_title" td_lan_id="LAN_2531">Check-in History</string>
+    <string descript="screenshot taked" name="checkin_level_change_upgrade" td_lan_id="**LAN_2532">Upgrade to</string>
+    <string descript="screenshot taked" name="checkin_level_change_upgrade_one" td_lan_id="**LAN_2532">star</string>
+    <string descript="same as LAN_2518? dependons on code" name="checkin_level_change_lost" td_lan_id="**LAN_2518">Lost</string>
+    <string descript="same as LAN_2518? dependons on code" name="checkin_level_change_lost_one" td_lan_id="**LAN_2518">one star</string>
+    <string name="checkin_level_sum_purchased_credits" td_lan_id="LAN_2529">%1$s traffic purchased in the last 7 days</string>
+    <string name="checkin_level_upgrade_one" td_lan_id="**LAN_2498">Congratulation! You are now a</string>
+    <string name="checkin_level_upgrade_two" td_lan_id="**LAN_2498"> user. You will get more free traffic for daily check-in and may receive free bonus traffic for completing offer.</string>
+    <string name="checkin_level_lost_unfortunately" td_lan_id="LAN_2518">Lost One Star</string>
+    <string name="checkin_level_lost_times" td_lan_id="**LAN_2511">You lost one star due to two or more missed check-in in the past 7 days.</string>
+    <string name="checkin_level_lost_times_recovery" td_lan_id="**LAN_2511">To recovery the lost star, please immediately earn 900M free traffic by completing offer today.</string>
+    <string name="checkin_level_onestar_message" td_lan_id="LAN_2515">You have checked in 7 days in a row. Now you just need to earn 175M+ free traffic by completing ads to become a star user.</string>
+    <string name="checkin_level_twostar_message" td_lan_id="LAN_2505">You have checked in 7 days in a row. Now you just need to earn 350M free traffic by completing ads to become a super star user.</string>
+    <string name="checkin_level_onestar_times" td_lan_id="LAN_2508">1.Check in 7 days in a row.\n2.Earn 175MB free traffic by completing ads.\n\nStar users will have more benefits!</string>
+    <string name="checkin_level_two_star" td_lan_id="LAN_2502">Super Star User</string>
+    <string name="checkin_level_lost_secretary" td_lan_id="**LAN_2499">Unfortunately, you lost one star due to two or more missed check-in in the past 7 days.\nTo recovery the lost star, please check in 7 days in a row or earn 750M free traffic in the next 7 days.  Earn Free traffic NOW.</string>
+    <string name="checkin_level_earn_secretary" td_lan_id="LAN_2504">Earn Free Credits NOW.</string>
+    <string name="checkin_level_upgrade_secretary" td_lan_id="LAN_2498">Congratulations! You are now a  %1$s user. You will get more free traffic for daily check-in and may receive free bonus traffic when you purchase traffic.</string>
+    <string name="checkin_level_upgrade_pushmessage" td_lan_id="LAN_2575">Congratulations on your upgrade</string>
+    <string descript="reference" name="checkin_level_lost_pushmessage" td_lan_id="LAN_2497">Unfortunately, you lost one star</string>
+    <string name="checkin_level_lost_star" td_lan_id="**LAN_2520">You lost one star. You are now a</string>
+    <string name="checkin_level_user" td_lan_id="**LAN_2520">user</string>
+
+    <!-- Get Credits -->
+    <string name="more_get_credits_credits_up" td_lan_id="LAN_1035">GB</string>
+    <string name="more_get_credits_earn" td_lan_id="LAN_1166">Earn Free Credits</string>
+    <string name="more_get_credits_video" td_lan_id="LAN_1167">Watch Videos</string>
+    <string name="more_get_credits_offer" td_lan_id="LAN_1168">Complete Offers</string>
+    <string name="more_get_credits_invite">Invite Friends</string>
+    <string name="more_like_to_get">Like to get</string>
+    <string descript="translate" name="more_get_credits_no_offer" td_lan_id="only">No Offers</string>
+
+
+    <!-- Purchase -->
+    <string name="more_get_credits_purchase" td_lan_id="LAN_2354">Purchase Traffic</string>
+    <string name="more_get_credits_purchase_special" td_lan_id="LAN_1240">Special offer valid for %1$s hours!</string>
+    <string name="more_get_credits_purchase_special_for_one_day" td_lan_id="LAN_1240">Special offer valid for 1 day!</string>
+    <!-- error -->
+    <string name="more_get_credits_error_invalid" td_lan_id="LAN_1212">Invalid receipt!</string>
+    <string name="more_get_credits_error_not_connect" td_lan_id="LAN_1211">Could not connect to server.</string>
+
+
+    <!-- sponsorpay dialog -->
+    <string name="more_get_credits_sponsorpay_dialog_text" td_lan_id="LAN_1350">Typically, you will receive traffic 5–30 minutes after completing an offer. If you do not receive your traffic after 30 minutes, please enter \&quot;Complete an Offer\&quot; again and tap the \&quot;?\&quot; button in the upper right corner.</string>
+
+    <string name="more_get_credits_sponsorpay_dialog_btn" td_lan_id="LAN_1351">Check Status</string>
+    <string name="more_get_credits_sponsorpay_earn_dialog_text" td_lan_id="**LAN_1599,LAN_1343">Download and START\n\nTo be rewarded, please remember to start the app after installation.</string>
+
+    <!-- new sponsorpay dialog -->
+    <string name="sponsorpay_offer_done_dialog_title" td_lan_id="LAN_1352">Good Job!</string>
+    <string name="sponsorpay_offer_done_dialog_text" td_lan_id="LAN_1364">You earned %1$s MB free Skyvpn traffic. Please start a new offer to earn more traffic</string>
+
+    <string name="sponsorpay_balance_no_changed_dialog_title" td_lan_id="LAN_1375">Offer Completed?</string>
+    <string name="sponsorpay_balance_no_changed_dialog_text" td_lan_id="LAN_1365">It looks like you didn\'t earn free traffic.\nHow did you complete the offer?</string>
+
+    <string name="sponsorpay_balance_no_changed_dialog_text1" td_lan_id="LAN_1366">I downloaded the app and opened it</string>
+    <string name="sponsorpay_balance_no_changed_dialog_text2" td_lan_id="LAN_1367">I downloaded the app but forgot to open it</string>
+    <string name="sponsorpay_balance_no_changed_dialog_text3" td_lan_id="LAN_1368">I didn\'t download the app</string>
+    <string name="sponsorpay_balance_no_changed_dialog_text4" td_lan_id="LAN_1369">Invalid or expired offer</string>
+    <string name="sponsorpay_balance_no_changed_dialog_text5" td_lan_id="LAN_1370">I gave up on this offer</string>
+    <string name="sponsorpay_title_completed" td_lan_id="LAN_1376">Offer Completed</string>
+    <!-- <string name="sponsorpay_balance_no_changed_dialog_text1_dialog_text" td_lan_id="LAN_1377">You said you downloaded the app and subsequently opened it. \n\nYou will receive the rewarded credits in 5&#8211;30 minutes. \n\nSometimes, rewards just come later. Now, you can start a new offer to earn more credits.</string> -->
+    <string descript="need re-check ui" name="sponsorpay_balance_no_changed_dialog_text1_dialog_text" td_lan_id="LAN_1377">You said you downloaded the app and subsequently opened it. \n\nYou will receive your traffic in 5–30 minutes. Now, you can start a new offer to earn even more traffic.</string>
+
+    <string name="sponsorpay_title_restart" td_lan_id="LAN_1379">Restart Offer</string>
+    <string name="sponsorpay_balance_no_changed_dialog_text23_dialog_text" td_lan_id="LAN_1380">We will restart the offer for you. Please make sure you will download the app and open it for at least 1 minute.</string>
+    <!-- offer -->
+    <string name="sponsorpay_balance_no_changed_survey_dialog_text1" td_lan_id="LAN_1801">I completed the offer</string>
+    <string name="sponsorpay_balance_no_changed_survey_dialog_text2" td_lan_id="LAN_1802">I accidently closed the offer</string>
+    <string name="sponsorpay_balance_no_changed_survey_dialog_text3" td_lan_id="LAN_1373">Some errors stopped me</string>
+    <string name="sponsorpay_balance_no_changed_survey_dialog_text1_dialog_text" td_lan_id="LAN_1803">You indicated that you completed the offer. You will receive your traffic in 5-30 minutes. Now you can start a new offer to earn even more credits.</string>
+    <string name="sponsorpay_balance_no_changed_survey_dialog_text2_dialog_text" td_lan_id="LAN_1804">We will restart the offer for you. Make sure you complete the offer.</string>
+    <!-- more feedback -->
+    <string name="more_feedback_type" td_lan_id="LAN_387">Type of Issue</string>
+    <!-- feedback missing credits -->
+    <string name="more_feedback_missing_credits_title" td_lan_id="LAN_1349">Missing Traffic?</string>
+
+    <string name="feedback_termofservice" td_lan_id="LAN_432">Terms of Service</string>
+
+    <!-- claim missing credits -->
+    <string name="missing_credits_claim_link" td_lan_id="LAN_1943">Claim missing traffic</string>
+    <string name="missing_credits_claim" td_lan_id="LAN_1943">Claim Missing Traffic</string>
+    <string name="missing_credits_claim_sponsorpay" td_lan_id="LAN_1941">On the next screen, you will see all the offers from the same sponsor. Find the offer for which you didn\'t receive credits and tap the \&quot;report\&quot; button.  The sponsor will contact you shortly.</string>
+    <string name="missing_credits_claim_aarki" td_lan_id="LAN_1948">On the next screen, locate the offer for which you didn\'t receive credits, tap the \&quot;Claim Missing Traffic\&quot; link and enter your email and descriptions. The sponsor will contact you about the missing traffic.</string>
+    <string name="missing_credits_claim_nativex" td_lan_id="LAN_1942">The next screen will help you send a support request via email to the sponsor of this offer. They will handle you claim for missing traffic in 2–3 business days.</string>
+    <string descript="confirmed" name="missing_credits_claim_supersonic" td_lan_id="LAN_1948">On the next screen, locate the offer for which you didn\'t receive credits, tap the \&quot;Claim Missing traffic\&quot; link and enter your email and descriptions. The sponsor will contact you about the missing traffic.</string>
+
+    <!-- native AD in super offer wall -->
+    <string descript="translate" name="native_ad_credit_reminder" td_lan_id="only">Tap Once to Earn Traffic</string>
+
+    <!-- superofferwall -->
+    <string name="superofferwall_app" td_lan_id="LAN_1338">APP</string>
+    <string name="superofferwall_free" td_lan_id="LAN_1339">FREE</string>
+    <string name="superofferwall_content" td_lan_id="LAN_1599">Download and START</string>
+    <string name="superofferwall_dialog_tip" td_lan_id="LAN_1343">\n\nTo be rewarded, please remember to start the app after installation.</string>
+    <string name="superofferwall_get_it_now" td_lan_id="LAN_1762">Start Now!</string>
+    <string descript="translate" name="superofferwall_remind_me" td_lan_id="only">Remind Later</string>
+    <string name="superofferwall_get_now" td_lan_id="LAN_1909">Get Now!</string>
+
+    <string name="day">day</string>
+    <string name="month_m">Month</string>
+    <string name="year_y">Year</string>
+    <string name="day_y">Day</string>
+
+    <string name="kiip_moment_checkin" td_lan_id="LAN_2130">checking in! %1$d+ credits reward.</string>
+    <string name="kiip_moment_make_cheap_call" td_lan_id="LAN_2127">making cheap calls.</string>
+    <string name="kiip_moment_connecting_people" td_lan_id="LAN_2132">connecting the people you care about!</string>
+    <string name="kiip_moment_stay_connect" td_lan_id="LAN_2133">staying connected.</string>
+
+    <string name="kiip_redeem_reward" td_lan_id="LAN_2136">Redeem the reward…</string>
+    <string name="kiip_redeem_success" td_lan_id="LAN_2158">You earned %1$d+ MB for redeeming a reward. </string>
+    <string name="kiip_not_presee_redeem_button_hint_title" td_lan_id="LAN_2213">Redeem Reward</string>
+    <string name="kiip_not_presee_redeem_button_hint" td_lan_id="LAN_2212">Receive %1$d+ MB and a real-world reward (yes, two rewards) after you tap the \&quot;Redeem\&quot; button. \nDon\'t worry, your email inbox won\'t be spammed.</string>
+    <string name="kiip_loading_reward" td_lan_id="only">Loading reward…</string>
+    <string name="loading_rewards" td_lan_id="only">Loading Rewards…</string>
+
+
+    <string descript="reference to  LAN_1623" name="flurry_native_redeem_reward_success" td_lan_id="**LAN_1623">You earned %1$d MB.</string>
+    <string name="flurry_native_redeem_failed" td_lan_id="LAN_2134">Failed to redeem the reward.</string>
+    <string name="application_updates" td_lan_id="none unused">Application updates</string>
+    <string name="current_version_name" td_lan_id="none unused">Current Version:</string>
+    <string name="update_version_name" td_lan_id="none unused">Update Version:</string>
+    <string name="update" td_lan_id="none unused">Update</string>
+    <string name="difficult_level" td_lan_id="LAN_2253">Level:</string>
+    <string name="more_offers" td_lan_id="LAN_2271">More Offers</string>
+    <string name="mandatory_upgrade_title" td_lan_id="LAN_2324">Mandatory Upgrade</string>
+    <string name="mandatory_upgrade_content" td_lan_id="LAN_2322">The current version that you are now using needs an immediate upgrade. Please tap \&quot;Upgrade\&quot; to download the latest update.</string>
+    <string name="upgrade" td_lan_id="LAN_2323">Upgrade</string>
+
+    <!-- feeling lucky -->
+    <string name="feeling_lucky_free_credits_text" td_lan_id="**LAN_2371">You received %1$dMB free traffic.</string>
+    <string name="feeling_lucky_special_text" td_lan_id="LAN_2375">Plus, a special offer!</string>
+    <string name="feeling_lucky_title_text_0" td_lan_id="LAN_2368">Fortune is with you!</string>
+    <string name="feeling_lucky_title_text_1" td_lan_id="LAN_2372">Today is a good day!</string>
+    <string name="feeling_lucky_title_text_2" td_lan_id="LAN_2366">Luck is coming your way.</string>
+    <string name="feeling_lucky_title_text_3" td_lan_id="LAN_2367">May the force be with you!</string>
+    <string name="feeling_lucky_title_text_not_ready" td_lan_id="LAN_2373">Tomorrow is another day!</string>
+    <string name="feeling_lucky_special_text_unavailable" td_lan_id="LAN_2382">Please come back tomorrow\nfor free fortune traffic!</string>
+
+
+    <!-- *********************************************android 2.5.0 cut off line ************************************************* -->
+    <string name="pay_google_play_fail" td_lan_id="LAN_20002">Google Wallet payment failed!\nReason：%1$s</string>
+
+    <string name="pay_google_play_deliver_succeed" td_lan_id="LAN_20006">Payment processed successfully!</string>
+    <string name="pay_google_play_deliver_failed" td_lan_id="LAN_20007">Payment was processed successfully but credits were not delivered due to a network error. Please check your network.</string>
+    <string name="pay_google_play_create_order_failed" td_lan_id="LAN_20008">Payment rejected due to a technical issue.</string>
+    <string name="pay_google_play_create_order_error" td_lan_id="LAN_20009">Failed to process payment. Please try again later.</string>
+    <string name="pay_google_play_consume_failed" td_lan_id="LAN_20011">Your payment is pending. \nPlease do not disconnect the network.</string>
+    <!--felix max new add -->
+    <string name="loading_free_credits">Loading free traffic...</string>
+    <!--************************************************************************************************************************************************************-->
+    <!--************************************************************************************************************************************************************-->
+    <!--************************************************************************************************************************************************************-->
+    <!--SkyVpn-->
+    <string name="feedback_no_content_tip" td_lan_id="LAN_4141">Enter your feedback or describe your issue.</string>
+    <string name="sky_signup" screen_id="N/A" td_lan_id="LAN_2140">Sign Up</string>
+    <string name="sky_right_go_login" screen_id="N/A" td_lan_id="LAN_4259">I Have An Account</string>
+    <string name="sky_next" screen_id="N/A" td_lan_id="LAN_1691">Next</string>
+    <string name="sky_signup_title" screen_id="N/A" td_lan_id="LAN_4175">Create an account</string>
+    <string name="sky_vari_tip" screen_id="N/A" td_lan_id="LAN_4147">Please enter the 4-digit access code. You can find it in your linked email inbox.</string>
+    <string name="sky_countrylist_tip" screen_id="N/A" td_lan_id="LAN_4263">More servers coming soon...</string>
+    <string name="sky_countylist_title" screen_id="N/A" td_lan_id="LAN_701">Locations</string>
+    <string name="sky_clear" screen_id="N/A" td_lan_id="LAN_169">Clear</string>
+    <string name="sky_earn_free_traffic" screen_id="N/A" td_lan_id="LAN_4220">Earn Free Traffic</string>
+
+    <string name="sky_get_free_traffic_fast" screen_id="N/A" td_lan_id="LAN_4217">Earn traffic fast</string>
+    <string name="sky_daily_free_traffic" screen_id="N/A" td_lan_id="LAN_3951">Daily free traffic</string>
+    <string name="sky_daily_checkin" screen_id="N/A" td_lan_id="LAN_4168">Daily Check-in</string>
+    <string name="sky_feelinglucky" screen_id="N/A" td_lan_id="LAN_2370">Feeling Lucky</string>
+    <string name="sky_resetpswtitle" screen_id="N/A" td_lan_id="LAN_4267">Reset My Password</string>
+    <string name="sky_done" screen_id="N/A" td_lan_id="LAN_215">Done</string>
+    <string name="sky_invite_facebook" screen_id="N/A" td_lan_id="LAN_361">Invite Facebook Friends</string>
+    <string name="sky_invite_times_limit_tip" screen_id="N/A" td_lan_id="LAN_4237">Limit to 50 times for one account</string>
+    <string name="sky_shate_reward_tip" screen_id="N/A" td_lan_id="LAN_4164">Get 200MB traffic for each sharing</string>
+    <string name="sky_share_times_limit_tip" screen_id="N/A" td_lan_id="LAN_4138">Once only for each social media</string>
+    <string name="sky_invite_friends" screen_id="N/A" td_lan_id="LAN_299">Invite Friends</string>
+    <string name="sky_help_viewWebsite" screen_id="N/A" td_lan_id="LAN_4169">View SkyVPN Website</string>
+    <string name="sky_feedback" screen_id="N/A" td_lan_id="LAN_4243">Feedback</string>
+    <string name="sky_tips" screen_id="N/A" td_lan_id="LAN_4328">FAQ &amp; Tips</string>
+    <string name="sky_show_valid_psw" screen_id="N/A" td_lan_id="LAN_4193">The password must be at least 6 digits in length and up to 13 digits. You can enter the number &amp; letter &amp; special symbol. The password cannot contain spaces.</string>
+    <string name="sky_sure" screen_id="N/A" td_lan_id="LAN_3079">Sure</string>
+    <string name="sky_confirm_email" screen_id="N/A" td_lan_id="LAN_3081">Confirm Your Email</string>
+    <string name="sky_cancel" screen_id="N/A" td_lan_id="LAN_158">Cancel</string>
+    <string name="sky_ok" screen_id="N/A" td_lan_id="LAN_288">OK</string>
+    <string name="sky_email_exits" screen_id="N/A" td_lan_id="LAN_4207">This email address has already been registered. </string>
+    <string name="sky_login" screen_id="N/A" td_lan_id="LAN_2148">Log In</string>
+    <string name="sky_resendemail" screen_id="N/A" td_lan_id="LAN_4215">Resend Email</string>
+    <string name="sky_shared_onfacebook" screen_id="N/A" td_lan_id="LAN_414">Share on Facebook</string>
+    <string name="sky_shared_ontwitter" screen_id="N/A" td_lan_id="LAN_758">Share on Twitter</string>
+    <string name="sky_submit" screen_id="N/A" td_lan_id="LAN_428">Submit</string>
+    <string name="sky_senddiagnostic" screen_id="N/A" td_lan_id="LAN_4149">Send diagnostic information to SkyVPN.</string>
+    <string name="sky_vpn_is_connected" screen_id="N/A" td_lan_id="LAN_4134">VPN is ON</string>
+    <string name="sky_vpn_is_disconnected" screen_id="N/A" td_lan_id="LAN_4195">VPN is OFF</string>
+    <string name="sky_forget_my_password" screen_id="N/A" td_lan_id="LAN_4187">Forget My Password</string>
+    <string name="sky_messages" screen_id="N/A" td_lan_id="LAN_589">Messages</string>
+    <string name="sky_use_on_pc" screen_id="N/A" td_lan_id="LAN_4173">Use VPN on PC/Mac</string>
+    <string name="sky_connectionfailed" screen_id="N/A" td_lan_id="LAN_4289">VPN Connection Failed</string>
+    <string name="sky_server_error" screen_id="N/A" td_lan_id="LAN_4256">Server Error</string>
+    <string name="sky_help_about" screen_id="N/A" td_lan_id="LAN_829">Help &amp; About us</string>
+    <string name="sky_newpsw" screen_id="N/A" td_lan_id="LAN_4254">New Password</string>
+    <string name="sky_invite_email_subject" screen_id="N/A" td_lan_id="LAN_4139">Get the Awesome SkyVPN App! 100% Free! Totally Unlimited!</string>
+    <string name="sky_invite_not_email_content_us" screen_id="N/A" td_lan_id="LAN_4271">Download SkyVPN to bypass any blocked website and app. Keep surfing activities private and anonymous.Get it at \n%1$s</string>
+    <string name="sky_less_than_100m_vpn_traffic" screen_id="N/A" td_lan_id="LAN_4108">There is less than 100MB of traffic on your account. Earn more traffic by watching videos or completing offers.</string>
+    <string name="sky_no_vpn_traffic" screen_id="N/A" td_lan_id="LAN_4110">No traffic on your account, service will be disconnected.</string>
+    <string name="sky_push_alert_register" screen_id="N/A" td_lan_id="LAN_4266">Register to Get 1GB Traffic</string>
+    <string name="sky_push_alert_invite" screen_id="N/A" td_lan_id="LAN_4189">Invite Friend to Get 1GB Traffic</string>
+    <string name="sky_empty_tip" screen_id="N/A" td_lan_id="LAN_4177">Inbox is empty</string>
+    <string name="sky_connect" screen_id="N/A" td_lan_id="LAN_2998">Connect</string>
+    <string name="sky_disconncet" screen_id="N/A" td_lan_id="LAN_4275">Disconnect</string>
+    <string name="sky_what_is_vpn_title" screen_id="N/A" td_lan_id="LAN_4238">What is SkyVPN?</string>
+    <string name="sky_what_is_vpn_content" screen_id="N/A" td_lan_id="LAN_4183">SkyVPN is a free proxy VPN app for achieving network security, gaining privacy protection, and unblocking blocked sites.\nSkyVPN is smoother, faster, safer, more stable, and easier to use than any other VPN app.</string>
+    <string name="sky_always_free_title" screen_id="N/A" td_lan_id="LAN_4179">Always free &amp; Premium quality</string>
+    <string name="sky_always_free_content" screen_id="N/A" td_lan_id="LAN_4230">There\'s no paid version for SkyVPN. We offer only premium VPN service, unlimited free forever!\nSome free VPN services on the market may collect and sell your data. Check their terms or require you to pay monthly for premium bandwidth.\nSkyVPN will never do like that.</string>
+    <string name="sky_no_annoying_ads_title" screen_id="N/A" td_lan_id="LAN_4198">No Annoying Ads</string>
+    <string name="sky_access_to_all_content" screen_id="N/A" td_lan_id="LAN_4197">Bypass internet censorship and firewalls to gain access to all blocked websites. Content sites, TV, movies, sports, shows, and apps that were blocked before, will now be available.</string>
+    <string name="sky_safe_private_anonymous_title" screen_id="N/A" td_lan_id="LAN_4240">Safe, Private, and Anonymous</string>
+    <string name="sky_safe_private_anonymous_content" screen_id="N/A" td_lan_id="LAN_4181">Change your IP address, hide your location, protect yourself on public WiFi, and surf the internet anonymously.</string>
+    <string name="sky_easy_fast_stable_title" screen_id="N/A" td_lan_id="LAN_4146">Easy, Fast, and Stable</string>
+    <string name="sky_easy_fast_stable_content" screen_id="N/A" td_lan_id="LAN_4125">Confused by VPN speed and stability before? Now choose SkyVPN, and enjoy smooth connection for 12 hours with no drops.</string>
+    <string name="sky_tips_and_tricks_general" screen_id="N/A" td_lan_id="LAN_4126">General</string>
+    <string name="sky_tips_and_tricks_get_more_traffic" screen_id="N/A" td_lan_id="LAN_4128">Get More Free Traffic </string>
+    <string name="sky_copy" screen_id="N/A" td_lan_id="LAN_3798">Copy</string>
+    <string name="sky_copy_toast" screen_id="N/A" td_lan_id="LAN_4170">Has been copied to clipboard.</string>
+    <string name="sky_what_is_skyvpn" screen_id="N/A" td_lan_id="LAN_4325">Why choose SkyVPN?</string>
+    <string name="sky_retry" screen_id="N/A" td_lan_id="LAN_379">Retry</string>
+    <string name="sky_change_location" screen_id="N/A" td_lan_id="LAN_4332">Change Location</string>
+    <string name="sky_pc_push_connect" screen_id="N/A" td_lan_id="LAN_4285">Your computer %1$s is connecting SkyVPN service.</string>
+    <string name="sky_rate_tip" screen_id="N/A" td_lan_id="LAN_4305">The number represents traffic consumption rate. The bigger the number is, the more traffic it will consume. But meanwhile, it brings higher stability and faster connection.</string>
+    <string name="sky_i_see" screen_id="N/A" td_lan_id="LAN_4330">I See</string>
+    <string name="sky_welcome_to_use" screen_id="N/A" td_lan_id="LAN_4319">Welcome to Use</string>
+    <string name="sky_unlimited_free_title" screen_id="N/A" td_lan_id="LAN_4323">Unlimited Free</string>
+    <string name="sky_fast_title" screen_id="N/A" td_lan_id="LAN_4317">Fast &amp; Stable</string>
+    <string name="sky_fast_content" screen_id="N/A" td_lan_id="LAN_4302">Global premium VPN servers.</string>
+    <string name="sky_access_title" screen_id="N/A" td_lan_id="LAN_4313">Access to All</string>
+    <string name="sky_no_register_title" screen_id="N/A" td_lan_id="LAN_4306">No Registration Needed</string>
+    <string name="sky_no_register_content" screen_id="N/A" td_lan_id="LAN_4327">Just one tap to connect VPN.</string>
+    <!--add new 2016.12.5-->
+    <string name="sky_report_issue" screen_id="N/A" td_lan_id="LAN_4312">Report an issue or Feedback</string>
+    <!--todo-->
+    <string name="sky_recommand_app_tip" screen_id="N/A" td_lan_id="LAN_4221">Earn %1$s+GB traffic for referring apps</string>
+    <string name="sky_invire_tip" screen_id="N/A" td_lan_id="LAN_4202">Get 1GB traffic for each friend who has downloaded and installed SkyVPN app.</string>
+    <string name="sky_invire_compliance_tip" screen_id="N/A" td_lan_id="LAN_4202">Good things always deserve sharing. Share the link with your friends on the internet, and enjoy the fun from SkyVPN together.</string>
+    <string name="sky_invire_compliance_b_tip" screen_id="N/A" td_lan_id="LAN_4202">Good things deserve to be shared! Share the link with your friends and enjoy the fun of SkyVPN together.</string>
+    <string name="sky_network_instability" screen_id="N/A" td_lan_id="LAN_4150">Unstable connection to server. Please try again.</string>
+    <string name="sky_feedback_hint" screen_id="N/A" td_lan_id="LAN_199">Enter your feedback or describe your issue. </string>
+    <string name="sky_forgot_password" screen_id="N/A" td_lan_id="LAN_4187">Forgot my password? </string>
+    <string name="sky_invite_not_email_content_default" screen_id="N/A" td_lan_id="LAN_4252">SkyVPN lets you access apps, YouTube, Netflix, and other websites that are blocked by your country. Get it at %1$s .</string>
+    <string name="sky_secretary_activate_success" screen_id="N/A" td_lan_id="LAN_4178">%1$sMB traffic was added to your account for a successful installation.</string>
+    <string name="sky_get_traffic_common_push" screen_id="N/A" td_lan_id="LAN_4178">%1$sMB traffic was added to your account.</string>
+    <string name="sky_secretary_register_success" screen_id="N/A" td_lan_id="LAN_4249">Congratulations on registering SkyVPN successfully, %1$sMB traffic was added to your account.</string>
+    <string name="sky_secretary_share_success" screen_id="N/A" td_lan_id="LAN_4166">%1$sMB traffic was added to your account for sharing SkyVPN with your friends.</string>
+    <string name="sky_secretary_invite_install_skyapp_success" screen_id="N/A" td_lan_id="LAN_4148">You\'ve successfully invited one friend to use SkyVPN, %1$sGB traffic was added to your account.</string>
+    <string name="sky_secretary_watch_video_success" screen_id="N/A" td_lan_id="LAN_4300">Thank you for watching video, %1$sMB traffic was added to your account.</string>
+    <string name="sky_secretary_omplete_offer_success" screen_id="N/A" td_lan_id="LAN_4299">Offer completed, %1$sMB traffic was added to your account for reward.</string>
+    <string name="sky_secretary_check_in_success" screen_id="N/A" td_lan_id="LAN_4268">You checked in successfully.  %1$sMB traffic was added your account.</string>
+    <string name="sky_secretary_feel_lucky" screen_id="N/A" td_lan_id="LAN_4298">Lucky! You got %1$sMB traffic.</string>
+    <string name="sky_no_annoying_ads_content" screen_id="N/A" td_lan_id="LAN_4161">No annoying ads popping up while you\'re watching videos or surfing the internet.</string>
+    <string name="sky_invite_content" screen_id="N/A" td_lan_id="LAN_4278">1GB free traffic will add to your account once someone use your link to download and install SkyVPN.</string>
+    <string name="sky_pc_tip1" screen_id="N/A" td_lan_id="LAN_4296">• Visit %1$s on PC</string>
+    <string name="sky_pc_tip2" screen_id="N/A" td_lan_id="LAN_4251">• Click on icon for Mac OS or Windows</string>
+    <string name="sky_pc_tip3" screen_id="N/A" td_lan_id="LAN_4158">• Enter the above 5-digit code to verify</string>
+    <string name="sky_reconnect_push" screen_id="N/A" td_lan_id="LAN_4331">SkyVPN reconnected automatically! Please open SkyVPN to disconnect from VPN service if you do not use it.</string>
+    <string name="sky_connect_failed_change_location" screen_id="N/A" td_lan_id="LAN_4287">Failed to connect VPN servers. Please check your devices\'s network condition.\nYou can also try to change server location.</string>
+    <string name="sky_pc_push_refuse_for_balance" screen_id="N/A" td_lan_id="LAN_4284">Your computer %1$s declined to connect to SkyVPN service due to low balance. Get more free traffic now!</string>
+    <string name="sky_pc_push_consume_traffic" screen_id="N/A" td_lan_id="LAN_4306">Your computer %1$s consumed %2$sMB free traffic in %3$s minutes. %4$sMB free traffic left on your account. Get more free traffic now!</string>
+    <string name="sky_pc_push_disconnect_for_balance" screen_id="N/A" td_lan_id="LAN_4295">Your computer %1$s disconnected from SkyVPN service due to low account balance. %2$sMB free traffic was consumed. Get more free traffic now!</string>
+    <string name="sky_rate_us_traffic_push" screen_id="N/A" td_lan_id="LAN_30050">Thank you! %1$sMB traffic was added to your account for rating us. </string>
+    <string name="sky_unbloacking_tip" screen_id="N/A" td_lan_id="LAN_4315">Access to any websites &amp; Apps to watch foreign videos, sports, TV series...</string>
+    <string name="sky_unlimited_free_content" screen_id="N/A" td_lan_id="LAN_4329">No purchase required, no annoying ads.</string>
+    <string name="sky_safe_content" screen_id="N/A" td_lan_id="LAN_4326">Surf anonymously, change your IP, hide your location...</string>
+    <string name="sky_mb" screen_id="N/A" td_lan_id="LAN_30001">MB</string>
+    <string name="sky_get_more_traffic" screen_id="N/A" td_lan_id="LAN_30002">Get More Traffic</string>
+    <string name="sky_feelinglucky_earncredits" screen_id="N/A" td_lan_id="LAN_30003">You received %1$dMB traffic.</string>
+    <string name="sky_earn_30g_traffic" screen_id="N/A" td_lan_id="LAN_30004">Earn 30+GB traffic</string>
+    <string name="sky_earn_tip_bottom" screen_id="N/A" td_lan_id="LAN_30005">For every installation you get 600MB-60GB reward traffic</string>
+    <string name="sky_missing_traffic" screen_id="N/A" td_lan_id="LAN_30006">traffic be rewarded</string>
+    <string name="sky_earn_more_traffic" screen_id="N/A" td_lan_id="LAN_30006">Earn More Free Traffic</string>
+    <string name="sky_earn_traffic_per_person" screen_id="N/A" td_lan_id="LAN_30007">Earn 600MB per invited friend</string>
+    <string name="sky_checkin_share_facebook" screen_id="N/A" td_lan_id="LAN_30008">Earn 200MB for a post on Facebook</string>
+    <string name="sky_daily_checkin_earn_traffic" screen_id="N/A" td_lan_id="LAN_30009">Check in daily to \nearn up to 75MB. </string>
+    <string name="skycheckin_level_message_one" screen_id="N/A" td_lan_id="LAN_30010">Check in 7 days in a row and get at least 175MB by watching videos or completing offers.</string>
+    <string name="skycheckin_level_message_two" screen_id="N/A" td_lan_id="LAN_30011">Check in 7 days in a row and get at least 350MB by watching videos or completing offers.</string>
+    <string name="skycheckin_level_message_three" screen_id="N/A" td_lan_id="LAN_30012">Check in 7 days in a row or get more than 750MB by watching videos or completing offers.</string>
+    <string name="skycheckin_level_sum_credits" screen_id="N/A" td_lan_id="LAN_30013">%1$sMB traffic earned in the last 7 days.</string>
+    <string name="skycheckin_level_sum_purchased_credits" screen_id="N/A" td_lan_id="LAN_30014">%1$sMB traffic purchased in the last 7 days.</string>
+    <string name="skymore_get_credits_banner_earn" screen_id="N/A" td_lan_id="LAN_30015">Earn\n%1$s\nMB</string>
+    <string name="sky_about" screen_id="N/A" td_lan_id="LAN_30016">About</string>
+    <string name="sky_show_valid_email" screen_id="N/A" td_lan_id="LAN_4172">Invalid email address</string>
+    <string name="sky_network_error" screen_id="N/A" td_lan_id="LAN_30018">Network error!</string>
+    <string name="sky_email_not_register" screen_id="N/A" td_lan_id="LAN_30019">This email address has not been registered yet.</string>
+    <string name="sky_wrong_psw" screen_id="N/A" td_lan_id="LAN_30020">Wrong password!</string>
+    <string name="sky_bind_failed" screen_id="N/A" td_lan_id="LAN_4201">Network error. Please try again later.</string>
+    <string name="sky_register_failed" screen_id="N/A" td_lan_id="LAN_30022">Failed to register.</string>
+    <string name="sky_register_success" screen_id="N/A" td_lan_id="LAN_30023">Registered successfully!</string>
+    <string name="sky_varify_failed" screen_id="N/A" td_lan_id="LAN_30024">Verification code is wrong!</string>
+    <string name="sky_resetpsw_failed" screen_id="N/A" td_lan_id="LAN_30025">Failed to reset password.</string>
+    <string name="sky_resetpsw_success" screen_id="N/A" td_lan_id="LAN_30025">Reset password Successfully! Please Login your account. </string>
+    <string name="sky_recover_failed" screen_id="N/A" td_lan_id="LAN_30026">Failed to recover password. </string>
+    <string name="sky_countdowntext" screen_id="N/A" td_lan_id="LAN_30027">Email Sent (%1$ds)</string>
+    <string name="sky_offerwall_dialog_earncredits" screen_id="N/A" td_lan_id="LAN_30028">Earn %1$sMB</string>
+    <string name="sky_skyversion" screen_id="N/A" td_lan_id="LAN_30029">SkyVPN Version:</string>
+    <string name="sky_version" screen_id="N/A" td_lan_id="LAN_30030">Version</string>
+    <string name="sky_vpn_is_connecting" screen_id="N/A" td_lan_id="LAN_30031">Connecting...</string>
+    <string name="sky_loading" screen_id="N/A" td_lan_id="LAN_30032">Loading...</string>
+    <string name="sky_alert_delete_all_msg" screen_id="N/A" td_lan_id="LAN_30033">Are you sure you want to clear all these messages?</string>
+    <string name="sky_access_to_all_title" screen_id="N/A" td_lan_id="LAN_30034">Access to all &amp; Unblock any</string>
+    <string name="sky_message_delete_tip" screen_id="N/A" td_lan_id="LAN_30035">Delete the message</string>
+    <string name="sky_network_warning" screen_id="N/A" td_lan_id="LAN_30036">Network Warning</string>
+    <string name="sky_network_woring_content" screen_id="N/A" td_lan_id="LAN_30037">The current network is poor, and it will affect your experience on VPN service. We recommend you switch to a better WiFi or move to another location with better signal.</string>
+    <string name="sky_pc_push_disconnect" screen_id="N/A" td_lan_id="LAN_30039">Your computer %1$s disconnected from SkyVPN service. %2$sMB free VPN traffic was consumed. Get more free traffic now!</string>
+    <string name="sky_rate_us_traffic_secretary" screen_id="N/A" td_lan_id="LAN_30040">Thank you for rating us! %1$sMB traffic was added to your account. Earn more free traffic to enjoy unlimited free online world.</string>
+    <string name="sky_rateus_slide" screen_id="N/A" td_lan_id="LAN_30041">Slide up to rate 5-star</string>
+    <string name="sky_last_used_alert" screen_id="N/A" td_lan_id="LAN_30042">%1$sMB free traffic has been used.</string>
+    <string name="sky_secretary_earn" screen_id="N/A" td_lan_id="LAN_30043">Earn more free traffic now </string>
+    <string name="sky_welcome_title" screen_id="N/A" td_lan_id="LAN_30044">Access to a real free world with SkyVPN</string>
+    <string name="sky_rateus_bonus" screen_id="N/A" td_lan_id="LAN_30045">Get %1$dMB Bonus Traffic</string>
+    <string name="sky_safe_title" screen_id="N/A" td_lan_id="LAN_30047">Safe &amp; Secure</string>
+    <string name="sky_alert_delete_msg" screen_id="N/A" td_lan_id="LAN_30048">Are you sure you want to clear this message?</string>
+
+    <!--add-->
+    <string name="sky_secretary_invite_install_app_success">You\'ve successfully invited one friend to use SkyVPN, %1$sM free traffic added to your account.</string>
+    <string name="sky_pc_basic">Your SkyVPN service is degraded to Basic VPN Service due to low account balance. Once your account balance is back to %1$sMB or more, it will be upgraded to Premium VPN Service. Earn Traffic Now!</string>
+    <string name="sky_pc_pre">Your SkyVPN service is upgraded to Premium VPN Service. To avoid being degraded to Basic VPN Service, please make sure your account balance is always over %1$sMB. Earn More Traffic Now!</string>
+    <string name="sky_pc_disconect20">SkyVPN Basic Service is limited to %1$s minutes per session. You were disconnected from SkyVPN. Please earn free traffic to upgrade your account to Premium VPN Service. Earn Traffic Now!</string>
+    <string name="sky_pc_disconect40">SkyVPN Basic Service is limited to %1$s minutes per day. You were disconnected from SkyVPN. Please earn free traffic to upgrade your account to Premium VPN Service. Earn Traffic Now!</string>
+    <string name="sky_pc_pre_daily">Get %1$sMB free VPN traffic to upgrade your SkyVPN account to Premium VPN Service with unlimited usage, choice of global VPN servers and no bandwidth restrictions. Earn Traffic Now!</string>
+    <string name="sky_earn_free_traffic_main">Earn Free Traffic ></string>
+    <string name="sky_earn_traffic_for_pre">Earn 50MB Free Traffic for premium VPN ></string>
+    <string name="sky_basic_tip_content">1. Limited Bandwidth\n2. USA VPN servers only\n3. Up to 20 minutes per session\n4. Up to two sessions per day\n\nOnce your account balance is over 50MB, you will be upgraded to Premium Service.</string>
+    <string name="sky_basic_tip_title">Restrictions under Basic Service:</string>
+    <string name="sky_basic_vpn_service">Basic VPN Servers</string>
+    <string name="sky_unblwock">Unblock</string>
+    <string name="sky_alert_unblock">To access premium VPN servers, please upgrade your account by earning free VPN traffic.</string>
+    <string name="sky_go">Go</string>
+    <string name="sky_basic_service_restricted">Disconnecting</string>
+    <string name="sky_free_upgrade">Free upgrade to Premium VPN Service that offers unlimited access.</string>
+    <string name="sky_rateus_tip">To help SkyVPN be a better product, rate us in the store ! It helps so much if you do. Thanks.</string>
+    <string name="sky_pre_service">Premium VPN Service</string>
+    <string name="sky_basic_vs_pre">Basic vs Premium</string>
+    <string name="sky_sue_basic">Use Basic VPN Service</string>
+    <string name="sky_unlimited">Unlimited</string>
+    <string name="sky_gettraafic_top">Premium traffic offers unlimited bandwidth, faster servers and global locations.</string>
+    <string name="sky_get_pre_traffic">Get Premium Traffic</string>
+    <string name="sky_get_subs">Upgrade to Premium</string>
+    <string name="sky_local_secretary_basic">You are using Basic VPN Service. If you need unlimited bandwidth and worldwide servers, please choose Premium VPN Service.  </string>
+    <string name="sky_local_upgrate">Upgrade to Premium VPN Service.</string>
+
+    <string name="sky_local_secretary_pre">Your SkyVPN service is upgraded to Premium VPN Service. To avoid being degraded to Basic VPN Service, please make sure your account balance is always over 50MB.</string>
+    <string name="sky_toast_upgrade">Your SkyVPN service is upgraded to Premium VPN Service.</string>
+    <string name="sky_toast_downgrade">Please earn more premium traffic to increase account balance to 50M or more. </string>
+    <string name="sky_push_limit_basic">SkyVPN Basic Service is limited to %1$s traffic per day. You were disconnected from SkyVPN. Please earn free traffic to upgrade your account to Premium VPN Service. </string>
+
+    <string name="sky_basic_vs_pre_bottom">Note: Certain conditions for fare use applied to Basic VPN</string>
+    <string name="sky_premium_traffic">Premium Traffic</string>
+    <string name="sky_basic_traffic">Basic Traffic</string>
+    <string name="sky_unlimited_slide_menu">Unlimited ></string>
+    <string name="sky_main_bottom_tip">By connecting to the SkyVPN service, you agree to the Terms of Service and Privacy Policy.</string>
+    <string name="sky_already_in_pre">You have already been in Premium mode. </string>
+
+    <string name="sky_vpn_block_by_basic">The free traffic under Basic mode has been used up today. Please switch to Premium mode or use the service tomorrow.</string>
+    <string name="sky_share_on_instagram">Share on Instagram</string>
+    <string name="sky_invite_snapchat">Invite SnapChat Friends</string>
+    <string name="sky_invite_messenger">Invite Messenger Friends</string>
+    <string name="sky_invite_telegram">Invite Telegram Friends</string>
+
+    <string name="pay_google_play" td_lan_id="LAN_20000">Google Play</string>
+    <string descript="translate" name="pay_choose_payment_title" td_lan_id="only">Choose Payment</string>
+    <string name="pay_google_play_app_version_low" td_lan_id="LAN_20010">Sorry, the Google Play Store app on your device is too old. Please update the Google Play Store app to version 4.3.10 or above.</string>
+
+
+    <string name="more_get_credits_purchase_loading" td_lan_id="LAN_1180">Loading Product List…</string>
+    <string name="more_get_credits_purchase_preparing" td_lan_id="LAN_69">Preparing…</string>
+
+    <string name="purchase_received_traffic">You received %1$s Traffic.</string>
+    <string name="purchase_success">Successfully purchased!</string>
+    <string name="purchase_no_products">There is no products now! </string>
+    <string name="sky_switch_to_pre">Switch to Premium VPN</string>
+    <string name="sky_switch_to_basic">Switch to Basic</string>
+    <string name="ad_dialog_content">Basic service disconnects every %1$s minutes.</string>
+    <string name="sky_reconnect">Reconnect</string>
+    <string name="sky_update">Check for updates</string>
+    <string name="sky_update_beta_desc">Beta Tester Recruitment</string>
+    <string name="sky_dea_account_desc">Deactivate My Account</string>
+
+
+    <string name="update_tips">The connection of new version is faster and more stable!</string>
+    <string name="update_btn_name">Upgrade to Latest</string>
+    <string name="update_using_latest_version">You are using the latest version!</string>
+    <string name="update_client_version"> Current Version: %1$s</string>
+    <string name="update_latest_version"> Latest Version: %1$s</string>
+    <string name="sky_updates">Updates</string>
+    <string name="user_id">UserId</string>
+    <string name="invite_sms">Awesome SkyVPN! 100%% free! Totally Unlimited! Super fast! Unblock all websites and apps.\n%1$s</string>
+    <string name="invite_messenger">Download SkyVPN to access every app and website you love. Get it at\n%1$s</string>
+    <string name="share_twitter">Download SkyVPN to access every app and website you love.\n%1$s</string>
+    <string name="invite_fb_title">SkyVPN – 100% Free, Totally Unlimited, Super Fast</string>
+    <string name="share_dialog_title">Choose To Share</string>
+
+
+    <string name="video_rewards">N x 25MB</string>
+    <string name="offer_rewards">+100MB</string>
+    <string name="purchase_rewards">+5GB</string>
+    <string name="invite_rewards">N x 1GB</string>
+    <string name="sign_rewards">1GB</string>
+    <string name="check_in_rewards">25-75MB</string>
+    <string name="feeling_lucky_rewards">25MB</string>
+    <string name="dialog_upgrade_title">Premium VPN Benefits</string>
+    <string name="dialog_upgrade_tip1">Still Free to Use</string>
+    <string name="dialog_upgrade_tip2">You can earn free traffic everyday</string>
+    <string name="dialog_upgrade_item1">Worldwide VPN Locations</string>
+    <string name="dialog_upgrade_item2">Dedicated Servers for Social &amp; Video</string>
+    <string name="ad_dialog_title">VPN Disconnected</string>
+    <string name="more_way_get_traffic">More Ways to Get Free Traffic</string>
+    <string name="basic_dialog_get_traffic_content">You have used up all the %1$s basic service traffic for today. Earn some FREE premium traffic which does not have any daily limit. </string>
+    <string name="get_free_traffic">Get Free Traffic</string>
+    <string name="premium_traffic_out_dialog_content">Premium traffic is less than %1$s, get more free traffic.</string>
+    <string name="premium_traffic_out_dialog_title">Premium traffic insufficient</string>
+    <string name="get_traffic_1g">Get Free Traffic up to 1G</string>
+    <string name="sky_basic">Basic</string>
+    <string name="sky_premium">Premium</string>
+    <string name="sky_vpn_servers">VPN Servers</string>
+    <string name="sky_guide_tip1">Click to switch countries</string>
+    <string name="sky_guide_tip2">Click to change mode</string>
+    <string name="sky_feed_toast">Thank you for your feedBack! </string>
+    <string name="sky_copy_title">Share Invitation Link</string>
+    <string name="sky_link_email_tip">Please register an account so you can use SkyVPN on new devices or restore account.</string>
+    <string name="sky_red_envelope_first_use">You got 500MB traffic for first use. </string>
+    <string name="sky_attention">Attention</string>
+    <string name="sky_red_envelope_invite">You got %1$s traffic for sharing SkyVPN.</string>
+    <string name="sky_share_again">Share Again</string>
+    <string name="sky_dialog_rate_title">Rate us 5-star</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="sky_dialog_rate_content">To help SkyVPN be a better product, rate us in the store! It helps so much if you do. Thanks.</string>
+    <string dt_screen_id="NA" name="video_next_video_is_ready" td_lan_id="LAN_4421">The next video is ready. \nYou will get 13-125 MB.</string>
+    <string dt_screen_id="NA" name="video_play_after_timer" td_lan_id="LAN_4422">Play after %1$s seconds</string>
+    <string dt_screen_id="NA" name="video_tap_for_surprise" td_lan_id="LAN_4423">Tap for surprise!</string>
+    <string dt_screen_id="NA" name="video_waiting_for_surprise" td_lan_id="LAN_4424">waiting for surprise...</string>
+    <string dt_screen_id="NA" name="video_thank_try_next" td_lan_id="LAN_4426">Thank you! Try next time.</string>
+
+    <string name="congratulations" td_lan_id="LAN_1185">Congratulations!</string>
+    <string name="permission_acess_to_camera" td_lan_id="LAN_4414">Dingtone needs access to the camera. Please enable Dingtone to access the camera from your device via Settings -&gt; Privacy - Camera.</string>
+    &gt;
+    <string name="video_play_now" td_lan_id="LAN_4504">Play now</string>
+
+    <string name="pre_vs_basic">Premium vs Basic</string>
+    <string name="premium_vpn">Premium VPN</string>
+    <string name="pre_feature1">- Fast &amp; Dedicated Lines </string>
+    <string name="pre_feature2">- Worldwide Servers  </string>
+    <string name="free_basic">Free Basic VPN</string>
+    <string name="basic_feature1">- Limited Session</string>
+    <string name="basic_feature2">- Popup Ads</string>
+    <string name="learn_more">Learn More</string>
+    <string name="left_balance">Your Account Balance \n%1$s Premium Traffic</string>
+    <string name="get_more_pre_traffic">Get More Premium Traffic</string>
+    <string name="more_ways_get_traffic">More Way to Get Free Traffic</string>
+    <string name="multi_device">Use On Other Devices</string>
+    <string name="multi_device_step1">Steps:\n1.Install SkyVPN on new device</string>
+    <string name="multi_device_step_email">Login to your SkyVPN account:\nEmail:%1$s\nPassword:****</string>
+    <string name="multi_device_step_fb">Login to your SkyVPN account with your Facebook account:\nFaceBook ID:%1$s</string>
+    <string name="multi_device_title">Multiple Devices</string>
+    <string name="multi_device_content">You can use SkyVPN on up to %1$d devices. To use SkyVPN on this device, please Remove one of your current devices:</string>
+    <string name="deactivate_msg">You account has been deactivated.</string>
+    <string name="login_fk_content">Login with Facebook</string>
+    <string name="login_pw_content">Password</string>
+    <string name="login_em_content">Email</string>
+    <string name="login_acc_content">Login my account</string>
+    <string name="login_sign_up_content">Sign Up</string>
+    <!--video new ad placement end-->
+    <string name="kick_out">Remove</string>
+    <string name="kick_out_loading">Removing devices...</string>
+    <string name="kick_out_login">Logging in...</string>
+    <string name="remove_device_failed">Failed to remove the device. </string>
+    <string name="login_too_many_times">Your account has been locked because you entered an incorrect password many times. Please try again in %1$s hours.</string>
+    <string name="slow_connection">Slow VPN Connection</string>
+    <string name="slow_connection_reason">(Reason: Basic VPN uses shared servers)</string>
+    <string name="slow_connection_content">Free upgrade to Premium VPN service that offers faster speed.</string>
+    <string name="force_update_title">Upgrade Notice</string>
+    <string name="force_update_content">A new version of SkyVPN is available. Update now to enjoy the latest cool features, plus a much more stable connection &amp; faster speed!</string>
+    <string name="force_update_content2">You are using an old version. To make SkyVPN work properly, please upgrade to the latest one! </string>
+    <string name="force_update_btn">Update Now</string>
+    <string name="stay_on_pre">Stay on Premium</string>
+    <string name="unlimited_bandWidth">Unlimited Bandwidth</string>
+    <string name="unlimited_useTime">Unlimited Use Time</string>
+    <string name="exclusive_servers">Exclusive Servers</string>
+    <string name="popup_ad_free">Popup Ad Free</string>
+    <string name="military_grade_security">Military Grade Security</string>
+    <string name="no_log">No log of your activities</string>
+    <string name="pre_service">Premium\nService</string>
+    <string name="basic_service">Basic\nService</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="connect_failed_support">I can not connect to VPN server. </string>
+    <string name="black_list_support">I am blocked by policy restrictions, but my country does not have any restriction on VPN.</string>
+    <string name="connect_failed_default_content">Failed to connect to VPN servers. Please check your network connection and try again. You may also try to change server location.</string>
+    <string name="connect_failed_default_content_3">Failed to connect to VPN servers. Please try to change server location or contact our support team for help.</string>
+    <string name="rewards_mb">MB each</string>
+    <string name="shared_title">Sharing is the best reward</string>
+    <string name="service_limit">service limit reached!</string>
+    <string name="basic_service_limit">Basic service limit reached!</string>
+    <string name="basic_service_limit_content">You have used up all the basic traffic allowed today. Tap here to continue with premium traffic for FREE.</string>
+    <string name="basic_out_content_1">You have used up all the %1$s basic service traffic for today. Earn some FREE premium traffic which does not have any daily limit.</string>
+    <string name="basic_out_content_2">You have used up all the %1$s basic service traffic for today. You can continue with premium traffic.</string>
+    <string name="get_free_pre_traffic">Get FREE premium traffic</string>
+    <string name="free_upgrade_pre">FREE upgrade to Premium</string>
+    <string name="service_slow">service slow</string>
+    <string name="slow_session_content">Free upgrade to premium service for faster connection</string>
+    <string name="service_disconnect">service is disconnected</string>
+    <string name="basic_service_disconnect_title">Basic service disconnected</string>
+    <string name="basic_service_disconnect_content">Basic service is disconnected every %1$s minutes. Tap here to reconnect.</string>
+    <string name="basic_session_tip_content">Try Premium service which has no limit on usage.</string>
+    <string name="basic_session_tip_content2">Premium service does not auto disconnect.</string>
+    <string name="basic_session_tip_title">Try Premium Service</string>
+    <string name="find_latest_updates">Find the latest updates of SkyVPN here: </string>
+    <string name="skyvpn_blog">SkyVPN blog</string>
+    <string name="telegram_blog">SkyVPN Telegram Channel</string>
+    <string name="fb_blog">SkyVPN Facebook Page</string>
+    <string name="tw_blog">SkyVPN Twitter Page</string>
+    <string name="lazy_user_tip">Your basic service was interrupted a few times this week, Free upgrade to faster premium service.</string>
+    <string name="invite_dialog_title">Invite friends on</string>
+    <string name="invite_dialog_title_2">Share SkyVPN On</string>
+    <string name="invite_link">Invitation Link</string>
+    <string name="invite_dialog_content">Get 1GB when your friend download and install SkyVPN with the link above.</string>
+    <string name="more_ways_invite">More ways to invite</string>
+    <string name="more_ways_share">More ways to share</string>
+    <string name="follow_fb">follow us on Facebook</string>
+    <string name="follow_ins">follow us on Instagram</string>
+    <string name="follow_push">Thank you for follow us, 200MB was added to your account.</string>
+    <string name="traffic_arrive_title">Premium traffic earned</string>
+    <string name="video_reward">%1$s\nMB</string>
+    <string name="black_list_content">We are sorry that we could not provide VPN service in your region due to policy restrictions.</string>
+    <string name="quit_app">Quit App</string>
+    <string name="black_list_tip">Contact us if we got your location wrong.</string>
+    <string descript="translated" name="welcome_send_email_text" td_lan_id="only">Choose Email Client</string>
+    <string name="welcome_access_code_to_activation" td_lan_id="LAN_408">Set up Account…</string>
+    <string name="close">close</string>
+    <string name="done">done</string>
+    <string name="btn_continue">continue</string>
+    <string name="edit">edit</string>
+    <string name="submit">submit</string>
+    <string name="clear">clear</string>
+    <string name="back">back</string>
+    <string name="wait">wait...</string>
+    <string name="info">info</string>
+    <string name="error">error</string>
+    <string name="unknown">unknown</string>
+    <string name="me">me</string>
+    <string name="help">help</string>
+    <string name="warning">warning</string>
+    <string name="draft">draft</string>
+    <string name="time_second">second</string>
+    <string name="time_minute">minute</string>
+    <string name="time_yesterday">yesterday</string>
+    <string name="group">group</string>
+    <string name="search">search</string>
+    <string name="facebook_publish_failed">publish failed</string>
+    <string name="facebook_publish_succeed">publish success</string>
+    <string name="more_invite_sms">Invite SMS</string>
+    <string name="invite_via_whatsapp">Invite WhatsApp</string>
+    <string name="more_invite_email">Invite Email</string>
+    <string name="activation_failed_promot_content" td_lan_id="LAN_698">Please try again after closing this message. If you keep seeing this error message, please contact %1$s.</string>
+    <string name="title_activity_main">SkyVPN</string>
+    <string name="secretary_watch_vedio" td_lan_id="LAN_1576">Thank for watching video!  %1$sM free traffic added to your account.</string>
+    <string name="operation_not_allowed_network_poor" td_lan_id="LAN_1601 LAN_1028">Poor Network Connection. Please try again later.</string>
+    <string name="load_ads">Loading ads ...</string>
+    <string name="loading">Loading ...</string>
+    <string name="load_ads_message">Thanks for checking-in.\nRewards have been delivered.</string>
+    <string name="load_ads_message_one">You have already checked in today.</string>
+    <string name="invite_facebook_failed_message" td_lan_id="LAN_20150">Failed to invite Facebook friends. Please install the Facebook app and try again.</string>
+    <string name="video_cached_tip" td_lan_id="LAN_2921">Video is ready. Get 30MB. </string>
+    <string name="offer_unavailable_title" td_lan_id="LAN_2593">Offer Unavailable</string>
+    <string name="offer_unavailable_info" td_lan_id="LAN_2592">Oops, too many users have grabbed this offer in a short time! This offer is no longer available. Please complete other offers in the offer wall.</string>
+    <string name="kiip_moment_you_credits_rewarded" td_lan_id="LAN_2261">you! %1$d traffic reward.</string>
+    <string name="kiip_moment_login" td_lan_id="LAN_2260">login! %1$d traffic reward.</string>
+    <string name="kiip_moment_on_dngtone" td_lan_id="LAN_2259">on Dingtone! %1$d traffic reward</string>
+    <string name="kiip_moment_being_cool" td_lan_id="LAN_2262">being cool! %1$d traffic reward.</string>
+    <string name="kiip_moment_being_smart" td_lan_id="LAN_2263">being smart! %1$d traffic reward.</string>
+    <string name="watch_video_connect">Watch a Video &amp; Connect</string>
+    <string name="check_in_scenes_content">FREE upgrade to premium service once I have enough data</string>
+    <string name="check_in_scenes_btn">Check In and get 25MB traffic</string>
+    <string name="toast_auto_upgrade">You have switched to Premium Service.</string>
+    <string name="connect_switch_ip">Still connecting, battling with your firewall…</string>
+    <string name="failed_connect_title">Failed to connect</string>
+    <string name="failed_connect_content">Seems your firewall is really strong, could you try a different server location or report this issue back to us ?</string>
+    <string name="failed_default_try_again">Try again, it normally works</string>
+    <string name="fix_quick">We will fix it real quick</string>
+    <string name="failed_connect_default">We have fought hard with those trying to block you from free access to Internet. Let us try one more time.</string>
+    <string name="check_out_blog">Check our blog for updates</string>
+    <string name="server_not_respond">Server not responding</string>
+    <string name="register_failed_content">Could you please try again later ? Or try switch off your WiFi and restart the app. (It will NOT consume any mobile data)</string>
+    <string name="report_this_issue">Report this issue to us</string>
+    <string name="change_server_location">Change server location</string>
+    <string name="sky_illegal_app_title">Security Notice</string>
+    <string name="sky_illegal_app_web">Visit website</string>
+    <string name="sky_illegal_app_content">An unauthorized SkyVPN application is detected on your device. For your security concern, please click the buttons below to download the official application for SkyVPN.</string>
+
+
+    <!-- super offer wall dialog START-->
+    <string name="offer_value_type_easy">Easy</string>
+    <string name="offer_value_type_easiest">Easiest</string>
+    <string name="offer_value_type_value">Value</string>
+    <string name="offer_tips_dialog_title">Info</string>
+
+    <string name="recommend_offer_dialog_title_top">Fast Free Credits</string>
+    <string name="recommend_offer_dialog_title_middle_top">Download and open</string>
+    <string name="recommend_offer_dialog_title_middle">the app for %1$s free credits.</string>
+    <string name="recommend_offer_dialog_title_bottom">It takes you less than a miniute.</string>
+    <string name="recommend_offer_dialog_title_btn">Install for %1$s credits</string>
+    <!-- super offer wall dialog END-->
+
+
+    <string dt_screen_id="NA" name="video_offer_download_and_open" td_lan_id="LAN_4272">Download and Open the App</string>
+    <string dt_screen_id="NA" name="video_offer_no_video_ads" td_lan_id="LAN_4273">No Video Ads!</string>
+    <string dt_screen_id="NA" name="video_offer_free_credits" td_lan_id="LAN_4286">&lt;font color="#F16600"&gt;%1$s MB&lt;/font&gt; Free Premium Traffic</string>
+
+
+    <string name="free_premium_traffic">Free Premium Traffic</string>
+
+    <string name="video_offer_download_open_tip_premium_lack">Your current Premium traffic is less than 50MB.</string>
+    <string name="video_offer_download_open_tip_basic_limit">Your daily Basic traffic is used up.</string>
+    <string name="video_offer_download_open_tip">Download and open the app to get &lt;font color="#F16600"&gt;%1$s MB&lt;/font&gt; premium traffic.</string>
+    <string name="welcome_private_terms">By clicking on the button above, you agree to the Terms of Service and Privacy Policy</string>
+
+    <string name="gdpr_title">Before you start Please agree to our privacy policy &amp; terms of service</string>
+    <string name="gdpr_scroll_down">Scroll down to read more</string>
+    <string name="gdpr_agree">Agree</string>
+    <string name="gdpr_decline">Decline</string>
+    <string name="gdpr_bottom">You can change your GDPR preference at App menu</string>
+    <string name="gdpr_dialog_content">Are you sure? Your account will be deactivated</string>
+    <string name="gdpr_dialog_exit">Don\'t allow and exit the app</string>
+    <string name="gdpr_left_menu">Update GDPR settings</string>
+    <string name="affiliate_left_menu">Affiliate</string>
+
+    <string name="request_consent_switch" td_lan_id="LAN_21049">Allow Information Collection</string>
+    <string name="request_consent_switch_about" td_lan_id="LAN_21050">To help SkyVPN improve the products and services, we need your permissions to collect information of device, location &amp; network environment.</string>
+    <string name="request_consent_close_tip" td_lan_id="LAN_21051">We will no longer collect information after you turn off the permission. We’ll clear all your data and deactivate your account. Do you want to continue?</string>
+    <string name="request_consent_about" td_lan_id="LAN_21052">About Data Collection Privacy Policy</string>
+    <string name="request_consent_close" td_lan_id="LAN_21054">Turn off the permission</string>
+    <string name="more_warning_deactivate" td_lan_id="LAN_858">Your history will be cleared after you deactivate SkyVPN on this device. In addition, your SkyVPN account information will be completely deleted.</string>
+    <string name="more_warning_deactivate_confirm_title" td_lan_id="LAN_859">Deactivate Account</string>
+    <string name="more_warning_deactivate_confirm" td_lan_id="LAN_860">Are you sure you want to permanently delete the SkyVPN account on this device?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="deactivating" td_lan_id="LAN_619">Deactivating…</string>
+    <string name="deactivate_text_failed_timeout" td_lan_id="LAN_720">Deactivation failed. Reason: timeout.</string>
+    <string name="tips">Tips</string>
+    <string name="deactivate_text_failed" td_lan_id="LAN_620">Failed to deactivate SkyVPN!</string>
+    <string name="more_help_about_privacy" td_lan_id="LAN_372">Privacy Policy</string>
+    <string name="deactivate_account_desc" td_lan_id="LAN_372">Deactivate Account</string>
+    <string name="click_ad_title">Click AD wait for 3 seconds</string>
+    <string name="bonus_m">+%1$sM</string>
+    <string name="redeem_content">Access to Faster Servers and Unlimited Data! \n\n Enter Redeem Code</string>
+    <string name="redeem_btn">Redeem</string>
+    <string name="redeem_feed_back">I have trouble redeem.</string>
+    <string name="redeem_get_code">Where can I get redeem code?</string>
+    <string name="redeem_success_title">Redeem Success!</string>
+    <string name="redeem_success_content">Enjoy unlimited premium servers and data till\n%1$s</string>
+    <string name="redeem_failed_title">Redeem Failed!</string>
+    <string name="redeem_failed_content">Redeem Error</string>
+    <string name="redeem_try_again">Try again</string>
+    <string name="redeem_contact">Contact support</string>
+    <string name="left_drawer_enter_redeem_code">Enter Redeem Code</string>
+    <string name="left_drawer_end_time">Monthly Subscription\nEnd on %1$s</string>
+
+
+    <string name="redeem_error_60005">Invalid redeem code, please check your code and try again.</string>
+    <string name="redeem_error_60007">Redeem code does not exist, please check your code and try again.</string>
+    <string name="redeem_error_60008">Redeem code expired, please check your code and try again.</string>
+    <string name="redeem_error_60009">Redeem code has been used, please check your code and try again.</string>
+    <string name="redeem_error_4">Network Error, please check your network and try again.</string>
+
+    <string name="illegal_apk_content">This is an unofficial version of SkyVPN, it may cause damage to your device. Please download the latest version of SkyVPN from GooglePlay Store. </string>
+    <string name="disconnect_enter_getcredits">We have disconnected VPN when getting free premium traffic.</string>
+    <string name="net_free_welcome_content">Click away from Free Internet</string>
+    <string name="net_free_start">Start FREE Internet</string>
+    <string name="sky_welcome_content">Access to a reel free world</string>
+    <string name="sky_start">Start SkyVPN</string>
+
+    <string name="net_free_dialog_title">You have true Free Internet Now</string>
+    <string name="net_free_dialog_content">SkyVPN has just saved your mobile data. Tell your friends about this amazing discovery!</string>
+    <string name="net_free_btn">Share</string>
+    <string name="vip_server_content">this VPN server require paid traffic or redeem.</string>
+    <string name="vip_server_paid_des">To unlock this server, please upgrade to premium subscription</string>
+    <string name="vip_server_paid_title">Choose your Premium Plan</string>
+    <string name="vip_server_paid_free">7 day FREE trial</string>
+    <string name="vip_server_paid_year">1 Year</string>
+    <string name="vip_server_paid_year_price"> $35.99/Year</string>
+    <string name="vip_server_paid_year_price_month"> $2.99/Month</string>
+    <string name="vip_server_paid_month">1 Month</string>
+    <string name="vip_server_paid_month_price">$9.99/Month</string>
+
+    <string name="toast_click_ad_bar">Please Click the AD Up.</string>
+
+    <string name="advpn_dialog_title">Special Offer</string>
+    <string name="advpn_dialog_content">Limited time only, complete offers and gain more traffic than usual.</string>
+    <string name="advpn_dialog_btn">Get Special Offer</string>
+    <string name="advpn_dialog_reward">+1000MB</string>
+    <string name="advpn_dialog_bottom_tip">Make sure your VPN is connected all the time. And not use VPN for traffic consuming activities while completing offer</string>
+    <string name="advpn_dialog_prepare_offer">Preparing your special offers.\nPlease wait...</string>
+
+    <string name="advpn_dialog_failed_title">Failed to load Offer</string>
+    <string name="advpn_dialog_failed_content">Sorry something went wrong, we have compensated you 25MB for your trouble</string>
+    <string name="advpn_dialog_failed_btn">Ok</string>
+    <string name="special_video">Special Videos</string>
+
+    <string name="auto_update_content">New App version available</string>
+    <string name="download_notification_downloading">downloading %1$s</string>
+    <string name="download_notification_success">Download success!!</string>
+
+    <string name="top_wallet_attention_content">Link account to prevent points loss</string>
+    <string name="top_wallet_attention_btn">Link Account</string>
+    <string name="top_wallet_token_name">Top Point</string>
+    <string name="top_wallet_get_token">Get Free TOP Points</string>
+    <string name="top_wallet_website">Website</string>
+    <string name="top_wallet_telegram">Join Telegram</string>
+    <string name="top_wallet_token_trade">Exchange Point</string>
+    <string name="top_wallet_task">Task</string>
+    <string name="top_wallet_record">Record</string>
+    <string name="top_wallet_purchase_5g">Purchase 5G</string>
+    <string name="top_wallet_go_to_task">Take Task</string>
+    <string name="top_wallet_task_taken">Task Taken</string>
+    <string name="top_wallet_task_already_taken">Task is already taken.</string>
+    <string name="top_wallet_mission_center">Mission center</string>
+    <string name="top_wallet">Top Points</string>
+    <string name="top_push_text">Congrats on completing the task and here are your rewards!</string>
+    <string name="top_token_arrive_title">%1$s TOP Points</string>
+    <string name="top_pop_content">The more SkyVPN you use, the more TOP Points you will get</string>
+    <string name="top_pop_title">The point is officially launched!</string>
+    <string name="top_pop_tip">$100 is available for YOU!</string>
+
+    <string name="top_5g_title">Purchase Traffic Packs</string>
+    <string name="top_link_account_title">Link Email Account</string>
+    <string name="top_consume_traffic_title">Consume Premium Traffic</string>
+    <string name="top_5g_content">Get 5G Premium Traffic and get TOP points reward. </string>
+    <string name="top_link_account_content">Link your SkyVPN app with your account and get TOP points reward.</string>
+    <string name="top_consume_traffic_content">You will get TOP points reward for every 1G premium data consumed.</string>
+
+    <string name="advpn_loading_content">While connecting we are getting some free Premium Traffic for you also...</string>
+    <string name="basic_info_tip">%1$s left for the next %2$s day(s)</string>
+    <string name="basic_info_content">To ensure the quality of service, we have to limit you total amount of basic traffic consumable every %1$s day(s) .\n\nYou have %2$s basic traffic left for the next %3$s day(s).\n\nYour basic service limit will be reset after %3$s day(s).</string>
+    <string name="basic_info_refresh_toast">Updating your basic traffic balance ...</string>
+    <string name="top_redeem_title">Enter invitation code \n to Get 5 Points!</string>
+    <string name="top_task_toast">You have completed this task, please try some new tasks. </string>
+    <string name="top_redeem_success_title">Congrats, Get 5 Points</string>
+    <string name="top_task_toast_account">Account has already been bound</string>
+    <string name="top_task_toast_rate">You have already commented</string>
+    <string name="top_task_toast_vip">You have already subscribed</string>
+    <string name="top_task_toast_check_in">You have checked in today!</string>
+    <string name="top_task_toast_share">You have already today shared</string>
+    <string name="top_task_toast_redeem">You have already bean invited a friend</string>
+    <string name="top_redeem_already_bind_title">Oops,you have used another invitation code</string>
+    <string name="dialog_top_title">Beginners\'s Exclusive Benefits</string>
+    <string name="dialog_top_content">Get $100 now</string>
+    <string name="dialog_top_content_ex">Get 10000 Points now</string>
+    <string name="dialog_top_btn">Get Now</string>
+    <string name="dialog_top_task_guide_title">Congrats on getting %1$s points</string>
+    <string name="dialog_top_task_guide_content">Try the following ways to get more points</string>
+    <string name="top_point_lucky_drawn">Lucky DRAW</string>
+    <string name="top_point_lucky_drawn_done">You Have Done Luck \n Draw today</string>
+    <string name="top_point_lucky_drawn_congratulation">Congratulations</string>
+    <string name="top_point_lucky_drawn_top_point">+ %1$s</string>
+    <string name="top_point_try_lucky_drawn">Try My Luck</string>
+    <string name="top_point_try_lucky_drawn_fail">Request failed</string>
+    <string name="top_point_try_lucky_drawn_server_fail">Server Request failed</string>
+
+
+    <string name="top_point_top_title_news">Top News</string>
+    <string name="top_point_top_title_invite">Friends</string>
+    <string name="top_point_top_title_more_points">Get Points</string>
+    <string name="top_point_top_title_privilege">Privilege</string>
+    <string name="top_history">Points History</string>
+    <string name="top_redeem_success_dialog_btn">Start inviting friends now</string>
+    <string name="top_points_receive_content">You earned  %1$s Points（%2$s）by using SkyVPN last week</string>
+
+    <string name="top_video_guide_content">You will get TOP POINTS for each short video you watch!</string>
+    <string name="top_points_receive_content_end">by using SkyVPN last week</string>
+
+    <string name="dialog_redeem_success">Congrats, 500MB earned</string>
+    <string name="is_available_for_YOU">$100 is available \n for YOU!</string>
+    <string name="is_available_for_YOU_ex">10000 POINT is available for YOU!</string>
+    <string name="dialog_points_receive">Tap to Claim</string>
+    <string name="dialog_points_you_earned">You earned</string>
+    <string name="dialog_points_redeem_enter_code">Enter Code</string>
+    <string name="dialog_points_redeem_redeem_tips">when can I get an invitation code?</string>
+
+    <string name="start_making_money">Start making money \n on SkyVPN!</string>
+    <string name="start_making_money_ex">TOP point is officially launched</string>
+    <string name="make_money_vpn">SkyVPN,a money making VPN.</string>
+    <string name="make_money_vpn_ex">free use and earn points</string>
+    <string name="make_money_bottom_ex">come on and experience it!</string>
+    <string name="go_to_earn_money">Go To Earn Money</string>
+    <string name="go_to_earn_money_ex">Open My Top Points</string>
+    <string name="make_money_mode">Just a share \n Open money making mode</string>
+    <string name="make_money_mode_ex">just a share \n Open the earned integral mode</string>
+    <string name="top_convert_title">Information</string>
+    <string name="watch_video_to_get_points">Watch videos to get Points</string>
+    <string name="get_more_Points">Get more Points</string>
+    <string name="your_own_invitation_code">You can earn more  money with\nyour own invitation code!</string>
+    <string name="your_own_invitation_code_ex">You can earn more Points with your own invitation code!</string>
+    <string name="top_wallet_points">POINTS</string>
+
+    <string name="vpn_main_left_drawer_top_right">NEW</string>
+
+    <string name="top_points_share_now">Share Now</string>
+
+
+    <string name="snapchat">SnapChat</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="facebook">Facebook</string>
+    <string name="sms">SMS</string>
+    <string name="more">More</string>
+    <string name="messenger">Messenger</string>
+
+    <string name="auto_upgrade_title">Congratulation on you free\nupgraded to premium</string>
+    <string name="auto_upgrade_content">Benefits of Premium</string>
+    <string name="auto_upgrade_item1">2X speed than basic</string>
+    <string name="auto_upgrade_item2">No Pop-up ads</string>
+    <string name="auto_upgrade_item3">No lag for gaming</string>
+    <string name="share_traffic_result">%1$s/%2$s MB ></string>
+
+    <string name="skip_ad">Skip %1$d</string>
+    <string name="basic_session_connect_premium">Try Premium service that never auto disconnects</string>
+
+    <string name="get_free_traffic_follow_us">follow us</string>
+    <string name="get_free_traffic_read_article">read an article</string>
+    <string name="get_free_traffic_ad_sign">AD</string>
+
+
+    <string name="sky_daily_checkin_for_dialog">Check-in</string>
+    <string name="sky_feelinglucky_for_dialog">Feeling Lucky</string>
+
+
+    <string name="go_unlimited">Go Unlimited</string>
+
+    <!--free trail-->
+    <string name="free_trail_unlimited_access">Unlimited Access \n All Apps &amp; Webs</string>
+    <string name="free_trail_fast_global">Fast Global Servers \n without ADs</string>
+    <string name="free_trail_protect_privacy">Protect Privacy \n All The Time</string>
+    <string name="free_trail_try_unlinited">Try Unlimited Premium VPN</string>
+    <string name="free_trail_7_free">7-day Free Trial</string>
+    <string name="free_trail_netflix_try">Try Netflix Server Now</string>
+    <string name="free_trail_can_cancel">No commitment,cancel any time</string>
+    <string name="free_trail_use_free">Use Free VPN with AD</string>
+    <string name="get_free_traffic_purchase">Purchase 5GB</string>
+    <string name="get_free_traffic_try_plan">Try Unlimited Plan</string>
+    <string name="get_free_traffic_never_worry">Never worry about traffic again</string>
+    <string name="get_free_traffic_fatest_server">Fastest Servers</string>
+    <string name="get_free_traffic_no_limited">No Traffic Limit</string>
+    <string name="get_free_traffic_device">5 devices</string>
+    <string name="get_free_traffic_enable_now">Enable Now</string>
+    <string name="unlimited_vpn">Unlimited Premium VPN</string>
+    <string name="fast_speed">Fastest Speed</string>
+    <string name="worldwide_location">Worldwide Location</string>
+    <string name="no_ads">No Ads.</string>
+    <string name="unblock_any">Unblock Any Websites, App, Games</string>
+    <string name="free_trail">Free Trial</string>
+    <string name="free_trail_bottom_switch_on">Auto-renews with %1$s/year after trial if not cancel.</string>
+    <string name="free_trail_bottom">No commitment, cancel any time</string>
+    <string name="unlimited_vip">Unlimited VIP PLAN</string>
+    <string name="unlimited_usage">Unlimited Usage</string>
+    <string name="up_5_devices">Up to 5 mobile devices</string>
+    <string name="no_ads_no_log">No Ads.No Log</string>
+    <string name="subs_terms">Subscription Terms</string>
+    <string name="subs_terms_hint">By purchasing a subscription, you agree to the Terms of Service and Privacy Policy. You can cancel anytime. Payment will be charged to your Google Play account at the confirmation of purchase. Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. You can manage and cancel your subscriptions by going to your account settings on the Google Play after purchase. Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription.</string>
+    <string name="save_55">Save 55%</string>
+    <string name="save_70">Save 70%</string>
+    <string name="start_free_trail">Start 7-day Free Trial</string>
+    <string name="block_train_server">BlockChain Business Server</string>
+    <string name="for_pre_only">For premium user only</string>
+    <string name="subs_month_price">%1$s/month</string>
+    <string name="subs_year_price">%1$s/year</string>
+
+
+    <string name="subs_create_order_failed">create order failed</string>
+    <string name="upgrade_subs_title">Upgrade Plan</string>
+    <string name="upgrade_subs_btn_up">Upgrade</string>
+    <string name="upgrade_subs_push_content">To continue using SkyVPN on your PC, please purchase premium traffic.</string>
+    <string name="upgrade_subs_push_dialog_content">Your current subscription plan only allows connection on 5 mobile devices.
+        To use SkyVPN on your PC, please upgrade your plan.</string>
+    <string name="upgrade_subs_content">Your current subscription plan is mobile-only.
+        To use SkyVPN on any of your devices (PC/Mac, tablets &#038; phones) please upgrade to universal plan.</string>
+    <string name="upgrade_subs_any_title">Welcome to Use</string>
+    <string name="choose_payment_title">Payment Methods</string>
+    <string name="choose_payment_title_small">Please choose your preferred method of payment</string>
+    <string name="upgrade_subs_content1">Use on PC/Mac</string>
+    <string name="upgrade_subs_content2">1.Install SkyVPN</string>
+    <string name="upgrade_subs_content3_1">2.Click \"</string>
+    <string name="upgrade_subs_content3_2">Login with SkyVPN App</string>
+    <string name="upgrade_subs_content3_3">\" on login page</string>
+    <string name="upgrade_subs_content4">3.Enter the 5-digital code to verify</string>
+    <string name="upgrade_subs_try_again_later">Try again later!</string>
+    <string name="upgrade_subs_any_month">1 Month</string>
+    <string name="upgrade_subs_any_month_price">$10.99/month</string>
+    <string name="upgrade_subs_any_year">1 Year</string>
+    <string name="upgrade_subs_any_year_price">$4.99/month</string>
+    <string name="upgrade_subs_pay_error_title">Payment Error</string>
+    <string name="upgrade_subs_pay_error_other">Get Unlimited</string>
+    <string name="upgrade_subs_pay_error_des1">Your device might not support in-app purchases</string>
+    <string name="upgrade_subs_pay_error_des2">We can\'t process your request for a subscription because your device doesn\'t support Google Play Store. Try our Unlimited plans that offer a more flexible refund policy.</string>
+    <string name="upgrade_subs_up_error1">Your current subscription is not purchased from Google Play Store.
+        If you want to upgrade your subscription, please return to App Store purchase platform.
+    </string>
+
+    <string name="upgrade_subs_up_error_web">Your current subscription is not purchased from Google play. If you want to upgrade your subscription, please visit skyvpn.net </string>
+
+    <string name="get_credit_luck_box_receive_notice">You have traffic to receive.</string>
+    <string name="get_credit_luck_box_click">Click to Get</string>
+    <string name="get_tip" td_lan_id="LAN_20741">Get</string>
+
+
+    <string name="sky_share_title">Share it to your friends</string>
+    <string name="sky_share_copy">Copy</string>
+    <string name="sky_share_invite_content">Enter activity code</string>
+    <string name="sky_share_invite_skip">Skip</string>
+    <string name="sky_share_invite_get_free_vip">get free VIP</string>
+    <string name="sky_share_invite_get_mb">Get 500MB</string>
+    <string name="sky_invite_tips_get_mb">You\'ve got 500MB premium traffic.</string>
+    <string name="sky_share_invite_get_content">Get</string>
+
+    <string name="sky_invite_tips_month">Congratulations! You\'ve just earned %1$s Premium Membership</string>
+
+    <string name="sky_invite_slide_enter">Enter Activity Code</string>
+    <string name="invite_monitor_first_share">First time sharing</string>
+    <string name="invite_monitor_multi_times_share">%d pageviews</string>
+    <string name="invite_monitor_times_share">%d pageview</string>
+    <string name="invite_monitor_one_month_pass_completed">Premium\none-month pass</string>
+    <string name="invite_monitor_one_month_pass_uncompleted">You\'ve invited %1$d people \nGet bonus by inviting %2$d people</string>
+
+    <string name="sky_share_invite_code">Invitation Code：%1$s</string>
+    <string name="sky_share_invite_content_des">Enjoying my SkyVPN connection &#038; think you will too!  %1$s
+        \nExclusive Invitation Code 【%2$s】</string>
+    <string name="sky_invite_tips_invalid_code">Invalid code, please try another one</string>
+    <string name="sky_invite_tips_already_invite">You\'ve applied the code already</string>
+    <string name="sky_invite_tips_self_code">You can\'t apply your own code, please use the code from your friends</string>
+    <string name="sky_invite_tips_country_reason">The campaign is not available in your country yet!</string>
+    <string name="sky_invite_tips_default_error">Sorry,please try again!</string>
+    <string name="invite_monitor_share">Increase Pageviews</string>
+    <string name="invite_monitor_rank_calculating">calculating</string>
+    <string name="invite_monitor_rank_global">Global Ranking</string>
+    <string name="invite_monitor_page_view">Pageviews accumulated</string>
+    <string name="invite_monitor_page_one_month_desc">%1$s\npremium\nmembership</string>
+    <string name="invite_monitor_page_one_month_desc_2">Premium Membership</string>
+    <string name="invite_monitor_traffic_bonus">Congratulations! \nYou\'ve just earned \n%1$s Premium Data!</string>
+
+    <!--1.6.29-->
+    <string name="invite_code_dialog_desc">What\'s an invitation code?</string>
+    <string name="invite_code_adapter_get">Collect</string>
+    <string name="invite_code_adapter_un">Unqualified</string>
+    <string name="invite_code_adapter_received">Collected</string>
+    <string name="invite_monitor_desc_title">Get Premium Traffic \n By Inviting Friends</string>
+    <string name="invite_monitor_desc_btn">Got It</string>
+    <string name="invite_tips_congratulation">Congratulations!</string>
+    <string name="invite_tips_get_more">Get More Traffic</string>
+    <string name="invite_tips_try_again">Try Again</string>
+    <string name="invite_tips_not_reached">You don\'t have enough pageviews yet. Share to get more views now!</string>
+    <string name="invite_tips_success">Congratulations! You\'ve got %1$s traffic.</string>
+    <string name="invite_tips_failed">Loading failed. Please check your network connection.</string>
+    <string name="netflix_guide_title">Streaming\nUnlimited</string>
+    <string name="netflix_guide_content">Free &#038; Unrestricted access to your favorite TV shows &#038; movies wherever you are.</string>
+    <string name="netflix_guide_free_desc">Risk-free,Cancel anytime</string>
+    <string name="invite_push_traffic_claimed">More traffic is ready to be claimed</string>
+    <string name="invite_push_traffic_claimed_push">You\'ve got enough pageviews. Go get your traffic.</string>
+    <string name="invite_month_card_bonus">Valid until:%1$s</string>
+
+    <!--1.6.30-->
+    <string name="sky_connect_feed_back_title">How was your connection?</string>
+    <string name="sky_use_pc_code_login">Verification code login</string>
+    <string name="sky_use_pc_code_login_des">Sync your account with the authorization code below:</string>
+    <string name="sky_use_pc_des_title">Instructions for use:</string>
+    <string name="sky_use_pc_des_content1">1. Open SkyVPN on your PC/Mac. </string>
+    <string name="sky_use_pc_des_content2_1">2.Click \ </string>
+    <string name="sky_use_pc_des_content2_2">\'Login with SkyVPN App\' \ </string>
+    <string name="sky_use_pc_des_content2_3">on sidebar menu.</string>
+    <string name="sky_use_pc_des_content3">3.Enter the 5-digit authorization code to log in</string>
+    <string name="sky_use_pc_unlimited_plan">For PC, phones and tablets Up to 5 any \n devices</string>
+    <string name="sky_use_pc_bonus">Bonus:</string>
+    <string name="sky_use_pc_bonus_reward">%1$s Premium data will be rewarded to \nyour account after logging in on PC/Mac using 5-digit code for the first time.</string>
+    <string name="sky_use_pc_bonus_content">Visit www.skyvpn.net to download SkyVPN for\nwindows/macOS if you don\'t have one yet</string>
+    <string name="web_guide_buy_title">Money Back\nGuarantee</string>
+    <string name="web_guide_buy_desc">If you are not 100% satisfied with the \nplan, we\'ll refund all your money. \nNo hassle, no risk!</string>
+    <string name="web_guide_buy_content1">No Ads</string>
+    <string name="web_guide_buy_content2">Up to 5 devices</string>
+    <string name="web_guide_buy_content3">Fastest Speed</string>
+    <string name="web_guide_buy_content4">Worldwide Location</string>
+    <string name="web_guide_buy_content5">Unlimited Usage</string>
+    <string name="special_offer_today">Special Offer Today</string>
+    <string name="special_offer_today_detail">You have free traffic ready to claim. Get it now!</string>
+    <string name="special_offer_complete_fail_reward"> Sorry, no offers available. Here\'s a 25MB traffic reward for you as a compensation.</string>
+    <string name="special_offer_complete_fail">Sorry, no offers left. Come earlier next time!</string>
+
+
+    <!--1.6.34-->
+    <string name="free_trial_help_dialog_title">How can we help?</string>
+    <string name="free_trial_help_dialog_content">Seems like you wanted to try out a free trial, but you haven\'t get started yet. What concerns you the most?</string>
+    <string name="free_trial_help_dialog_confirm">Being charged</string>
+    <string name="free_trial_help_dialog_cancel">Auto-renewal</string>
+
+    <string name="free_trial_charge_dialog_title">No Charge for Trial</string>
+    <string name="free_trial_charge_dialog_content">You will not be charged when starting a free trial. Plus, you may cancel it at any time (within 7 days).</string>
+    <string name="free_trial_charge_dialog_start">Start Free Trial Now</string>
+    <string name="free_trial_charge_dialog_cancel">Cancel</string>
+
+    <string name="free_trial_cancel_dialog_title">Cancel Anytime</string>
+    <string name="free_trial_cancel_dialog_content">You may cancel your free trial at any time (within 7 days), and your subscription won\'t be auto-renewed. No hassles.</string>
+    <string name="sesseion_auto_title">Basic auto disconnected</string>
+    <string name="sesseion_auto_content">Basic service disconnects every %1$s minutes</string>
+    <string name="sesseion_auto_btn_desc">Upgrade to Premium</string>
+    <string name="sesseion_auto_btn_desc2">Reconnect to Basic</string>
+    <string name="get_traffic_dialog_new_title">Get Free Traffic</string>
+    <string name="get_traffic_dialog_new_desc">Your Premium traffic is less than 50MB, get more free traffic now!</string>
+    <string name="get_traffic_dialog_new_desc_basic_watch_video">Sorry, your daily Basic traffic has been used up. Get more Free traffic by watching ads.</string>
+    <string name="get_traffic_dialog_new_desc_basic">Sorry, your daily Basic traffic has been used up. Get more Free traffic now!</string>
+    <string name="get_traffic_dialog_btn1">Complete Offers %1$d MB</string>
+    <string name="get_traffic_dialog_btn2">Watch Ads +25MB</string>
+    <string name="mission_not_finish">Please finish the previous task first.</string>
+    <string name="mission_not_finish_togo">To Finish</string>
+    <string name="sky_invite_tips_month_2">Your card is valid now! \nValid until:%1$s</string>
+
+    <string name="get_free_traffic_task_to_complete">To Complete</string>
+    <string name="get_free_traffic_task_per_video">MB per video</string>
+    <string name="get_free_traffic_task_per_time">MB per time</string>
+    <string name="get_free_traffic_task_per_offer">MB per offer</string>
+    <string name="get_free_traffic_task_per_friend">MB per friend</string>
+
+    <string name="get_free_traffic_close_ads">Close ads</string>
+    <string name="get_free_traffic_fyber_title">Special Offer</string>
+    <string name="get_free_traffic_special_watch_video">Special Videos</string>
+    <string name="sky_get_free_traffic">Get Free Traffic</string>
+    <string name="more_get_credits_video_youtube" td_lan_id="LAN_1167">Watch Youtube</string>
+    <string name="sky_invite_tips_normal_failed">Invalid code, please try another one</string>
+    <string name="sky_invite_tips_get_mb_new">You\'ve got %1$s premium traffic.</string>
+    <string name="sky_invite_premium_tips">Successfully invited the number of registered people is not up to standard, please click the button below to complete the task</string>
+    <string name="sky_invite_premium_progress">Task Progress</string>
+    <string name="sky_invite_premium_progress_desc">Current invitation：%1$d People \nMeet the Standard：%2$d People</string>
+
+    <!--netfree-->
+    <string name="sky_net_free_premium">Premium</string>
+    <string name="sky_net_free_desc">Upgrade to Premium to enjoy the following privileges:</string>
+    <string name="sky_net_free_good1">Faster\nspeed</string>
+    <string name="sky_net_free_good2">Unlimited\ndata</string>
+    <string name="sky_net_free_good3">Stable\nconnection</string>
+    <string name="sky_net_free_good4">No ads</string>
+    <string name="sky_net_free_good5">Exclusive\nserver</string>
+    <string name="sky_skyvpn">SkyVPN</string>
+    <string name="campus_wallet">My Wallet</string>
+    <string name="campus_card_valid">Valid</string>
+    <string name="campus_card_used">Used</string>
+    <string name="campus_card_expired">Expired</string>
+    <string name="campus_card_send_it_now">Send it Now</string>
+    <string name="campus_card_valid_empty">You have not received any \n coupons yet</string>
+    <string name="campus_card_activity_code">Activity Code</string>
+    <string name="campus_card_hint">%1$d-Day Premium</string>
+    <string name="campus_purchase_success">Go ahead and send the Premium plans to your friends!</string>
+    <string name="campus_expire_title">Dear Premium User</string>
+    <string name="campus_expire_purchase">Your premium plan is about to expire within 24 hours. To resume your premium experience, you may choose one of the subscriptions.</string>
+    <string name="campus_expire_notification">Your experience card is about to expire, please go to subscribe</string>
+    <string name="campus_expire_feedback">Meanwhile, if you have any feedback and comments, feel free to let us know!</string>
+    <string name="campus_expire_send_feedback">Send Feedback</string>
+
+    <!--1.6.39-->
+    <string name="ad_mode_home1">Traffic total:</string>
+    <string name="ad_mode_home2">, Traffic remain:</string>
+    <string name="ad_mode_go_premium_go">Go Premium</string>
+    <string name="sky_premium_free_trial_premium">Premium</string>
+    <string name="sky_premium_free_trial_title">Welcome to SkyVPN\nTrusted by 30 Million Users</string>
+    <string name="sky_premium_free_trial_faster">Ultra-fast and\nstable VPN speed</string>
+    <string name="sky_premium_free_trial_secure">Secure Internet &#038;\nRespect privacy</string>
+    <string name="sky_premium_free_trial_access">Access any\nwebsites &#038; apps</string>
+    <string name="sky_premium_free_trial_anonymous">Anonymous\naccess</string>
+    <string name="sky_premium_free_trial_with_ad">Use Limited VPN Service with Ads</string>
+    <string name="use_free_trial_unlimited">Unlimited Usage</string>
+    <string name="use_free_trial_faster">Fastest Speed</string>
+    <string name="use_free_trial_no_ad">No Ads.</string>
+    <string name="use_free_trial_resume">Resume Your VPN Connection</string>
+    <string name="use_free_trial_desc">You\'ve used up all your %1$s free\ntraffic. Try 7-day unlimited connection\nfor FREE now.</string>
+    <string name="use_free_trial_title">Unlimited Premium VPN</string>
+    <string name="use_netflix_a_title">Netflix Exclusive Server\n7-Day Free Trial</string>
+    <string name="use_netflix_b_title">Go Premium for\nUnlimited Netflix Streaming</string>
+    <string name="use_free_trial_desc_dp04_dp05">You\'ve used up all your %1$s free traffic. Upgrade to premium with the free trial and enjoy your unlimited connection now.</string>
+
+    <!--1.6.39-roi1.1-->
+    <string name="free_trial_guide_basic">Try basic services</string>
+
+    <string name="sky_app_cross_1">1.Install App</string>
+    <string name="sky_app_cross_2">2.Open App</string>
+    <string name="sky_app_cross_3">3.Get SkyVPN Traffic</string>
+    <string name="sky_app_cross_reward">Get %1$dMB Now</string>
+    <string name="sky_app_cross_content">Install &#038; Open The App</string>
+    <string name="sky_app_cross_notifacation">You successfully completed the offer.  %1$dMB traffic was added your account.</string>
+
+    <!--roi1.3-->
+    <string name="sky_roi_start_your">Start your 7- day Free Trial</string>
+    <string name="sky_roi_no_thank">No Thanks</string>
+    <string name="sky_roi_terms">For more info see Privacy policy and Terms of service.</string>
+    <string name="sky_roi_purchase_failed">%1$s failed, please try again!</string>
+    <string name="sky_roi_free_trial_fail">Oops, seems like the free trial is not available. Please try another premium plans.</string>
+    <string name="sky_roi_subs_title">Go Premium for \nUnlimited Netflix Streaming</string>
+    <string name="sky_roi_subs_close">Close</string>
+    <string name="sky_guide_title">Watch US Netflix \nShows</string>
+    <string name="sky_guide_content">Enjoy your favorite shows \nanywhere you go！</string>
+    <string name="sky_guide_desc_title">Stream US Netflix with SkyVPN</string>
+    <string name="sky_guide_desc_step1">Open SkyVPN, tap \'Connect\' button to start using \'US-Netflix\'  server</string>
+    <string name="sky_guide_desc_step2">Tap \'Allow\'  to enable SkyVPN to add VPN configurations.</string>
+    <string name="sky_guide_desc_step3">Once you\'ve connected to US-Netflix server, open your Netflix app and log in to your existing Netflix account.</string>
+    <string name="sky_guide_start_subs1">Get 72-Hour Streaming for Free</string>
+    <string name="sky_guide_start_subs2">First Month $3.99</string>
+    <string name="sky_guide_start_subs3">Subscribe Now</string>
+    <string name="sky_guide_start_subs_desc1">$9.99</string>
+    <string name="sky_guide_start_subs_desc2">$3.99 new users only</string>
+    <string name="sky_roi_balance_out_go">Go Premium Now</string>
+    <string name="sky_roi_balance_out_content">You\'ve used up all %1$s free traffic. Upgrade to premium and enjoy the unlimited Netflix streaming.</string>
+    <string name="sky_roi_feed_title">Customer Satisfaction Survey</string>
+    <string name="sky_roi_feed_content_before">Did SkyVPN help you unlock \nUS Netflix shows?</string>
+    <string name="sky_roi_feed_content">How is the Netflix connection \nquality?</string>
+    <string name="sky_roi_feed_cb1">Yes, it did</string>
+    <string name="sky_roi_feed_cb2">No, it didn\'t</string>
+    <string name="sky_roi_feed_cb3">Stream HD videos</string>
+    <string name="sky_roi_feed_cb4">Only for basic quality</string>
+    <string name="sky_roi_feed_cb5">Streaming freezes</string>
+    <string name="sky_roi_feed_cb6">Videos failed to load</string>
+    <string name="sky_roi_feed_sum">Submit</string>
+    <string name="sky_roi_use_title">Watch US Netflix in 3 easy steps</string>
+    <string name="sky_roi_use_step1">Make sure you\'ve connected to US-Netflix and your status is \'Connected\'</string>
+    <string name="sky_roi_use_step2">Open Netflix app on your phone and log in to your existing Netflix account.</string>
+    <string name="sky_roi_use_step3">Enjoy the show! When you\'re done, return to SkyVPN to disconnect.</string>
+    <string name="sky_roi_use_got">Got it</string>
+    <string name="sky_roi_subs_price">$ %1$s/month</string>
+    <string name="sky_share_invite_content_bottom_desc">The best VPN to unblock your school WiFi.7 days Premium FREE for you. Get it now! %1$s</string>
+    <!--  1.6.59-->
+    <string name="native_click_ad_title">Click AD &amp; Get Rewards</string>
+    <string name="native_download_ad_title">Download AD &amp; Get Rewards</string>
+    <string name="share_invite_content_des">I\'m using SkyVPN &#038; It\'s fantastic!Super-fast VPN connection! You gonna love it too!  %1$s</string>
+
+    <string name="device_not_support">Sorry, This application cannot be installed on a rooted device or emulator, please install it on a normal device.</string>
+
+    <string name="sky_activity_code_dialog_view">Congrats on getting  %1$sMB FREE Premium data!</string>
+    <string name="sky_activity_code_invite_dialog_view">Congrats on getting %1$s FREE Premium!</string>
+
+    <string name="net_work_toast">Please check your internet connection</string>
+    <string name="game_center_error_title">Page load failed</string>
+    <string name="game_center_error_desc">May be due to network instability\nMaybe the page has been deleted</string>
+    <string name="game_center_error_refresh">Refresh</string>
+
+
+    <string name="huawei">Huawei</string>
+    <string name="huawei_app_gallery">Huawei AppGallery</string>
+    <string name="huawei_pay_not_available">HuaWei Pay is not available</string>
+    <string name="subs_create_pay_order_failed">create pay order failed</string>
+    <string name="huawei_iap_verify_failed">Verify Developer Payload onFailed</string>
+    <string name="huawei_query_pay_failed">Query Pay Status onFailed</string>
+
+
+    <string name="offer_reward_loading">Rewards Loading \n You will get <font color="#FF9F00">10-25M</font></string>
+    <string name="offer_reward_ready">Video rewards are ready. \n <font color="#FF9F00">25MB</font> can be got by watching.</string>
+    <string name="offer_get_traffic"><![CDATA[ Congratulations！<br /> Get <font color="#FF9F00">%1$s</font> of premium traffic. ]]></string>
+    <string name="offer_watch_now">Watch now</string>
+    <string name="offer_receive">Receive</string>
+    <string name="offer_less_traffic">Available traffic is less than <font color="#FF9F00">50MB</font></string>
+    <string name="offer_less_click_traffic"><![CDATA[ Click AD & Get Rewards <font color="#FF9F00">%1$s</font> ]]></string>
+    <string name="offer_less_down_traffic"><![CDATA[ Download and open the app to get <font color="#FF9F00">%1$s</font> ]]></string>
+
+
+    <string name="restore_error">Error</string>
+    <string name="restore_success">Successfully</string>
+
+    <string name="restore_error_desc">No pruchases to restore</string>
+    <string name="restore_success_desc">Restore purchase successfully</string>
+
+
+    <string name="sky_restore" screen_id="N/A" td_lan_id="LAN_589">Restore Purchase</string>
+    <string name="sky_sub_bottom_desc_content" screen_id="N/A" td_lan_id="LAN_589">Premium service expires in %1$s day(s)</string>
+    <string name="sky_sub_bottom_cheap_desc_content" screen_id="N/A" td_lan_id="LAN_589">Your Premium service will end at</string>
+    <string name="deactiva_page_desc_tv_content">&#160;&#160;&#160;&#160;&#160;&#160;Note: Once your SkyVPN account is deactivated, we\'ll not be able to provide ANY service to you.</string>
+
+    <string name="deactive_desc_str_content">Your history will be cleared after you deactivate SkyVPN on this device. In addition,your SkyVPN account information will be completely deleted.</string>
+    <string name="sub_cheap_back_conent_desc" >Directly Skip the Offer</string>
+    <string name="sub_guide_main_conent_desc" >Proceed with Basic</string>
+    <string name="test_mode_direct" >Direct mode</string>
+    <string name="test_no_mode_direct">Nondirect connection mode</string>
+
+</resources>

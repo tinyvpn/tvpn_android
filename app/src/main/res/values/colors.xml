@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="sky_main">#0173DD</color>
+    <color name="sky_view_canclick">#999999</color>
+    <color name="sky_view_cantclick">#A6A6A6</color>
+    <color name="sky_text_cantclick">#D6D6D6</color>
+    <color name="sky_text_canclick">#999999</color>
+    <color name="sky_black50">#32000000</color>
+    <color name="top_orange">#FF9D5B</color>
+    <color name="alert_tv_gray">#dcdcdc</color>
+    <color name="sky_text_unit">#ccffffff</color>
+    <color name="sky_text_white80">#B2ffffff</color>
+    <color name="sky_text_white60">#99ffffff</color>
+    <color name="sky_text_white50">#7fffffff</color>
+    <color name="sky_black_80">#80000000</color>
+    <color name="sky_orage">#FFE95139</color>
+    <color name="sky_orage_2">#FF6600</color>
+
+    <color name="sky_yellow">#FFF6A623</color>
+    <color name="sky_btn_blue">#0677DF</color>
+    <color name="sky_btn_black">#000000</color>
+    <color name="sky_title_gray">#FF999999</color>
+    <color name="sky_text_black">#FF5D6266</color>
+    <color name="sky_item">#FF333333</color>
+    <color name="star_color">#EFCC0F</color>
+    <color name="vpn_mode_yellow">#FFF8E71C</color>
+    <color name="tip_bg">#FFFEF9E9</color>
+    <color name="slide_blue">#FF148EFF</color>
+    <color name="divider_blue">#50D2E7F9</color>
+    <color name="text_vs_middle">#FF444444</color>
+    <color name="text_vs_basic">#FF333333</color>
+    <color name="text_orange">#f68326</color>
+    <color name="bg_yellow">#f5c046</color>
+    <color name="black_70">#70000000</color>
+    <color name="white_70">#70ffffff</color>
+    <color name="sky_titile_yellow">#FBCC5B</color>
+
+    <color name="yellowedb904">#edb904</color>
+    <color name="bonus_red">#f42d37</color>
+    <color name="title_gray">#87c9FE</color>
+    <color name="sky_pink">#fcdfe4</color>
+    <color name="sky_text_red">#FF2A4D</color>
+    <color name="sky_ff6528">#ff6528</color>
+
+    <!-- flat ui colors -->
+    <color name="devider_pressed">#e1e1e1</color>
+
+    <color name="bg_chat_bottom_tools">#dcdcdc</color>
+
+    <!-- yellow list background use only for checkin page when no coupon -->
+    <color name="list_bg_solid">#fcf5e5</color>
+
+    <color name="list_bg_stroke">#fce9d1</color>
+
+    <color name="list_bg_solid_p">#f2dcc3</color>
+    <color name="yello_checkin_nocoupon">#ed8804</color>
+    <color name="blue_launch_background">#008ef0</color>
+
+
+    <color name="welcome_keypad_line">#2d2d2d</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_transparent_70">#70ffffff</color>
+    <color name="white_transparent_20">#c8ffffff</color>
+    <color name="white_transparent_10">#e6ffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="black_transparent">#90000000</color>
+    <color name="black_transparent_20">#20000000</color>
+    <color name="black_transparent_50">#50000000</color>
+    <color name="black_transparent_70">#70000000</color>
+    <color name="black_transparent_a0">#a0000000</color>
+    <color name="gray_transparent">#7444</color>
+    <color name="red">#ff0000</color>
+    <color name="red_black">#8e0222</color><!-- 暗红色 -->
+    <color name="transparent">#00000000</color>
+    <color name="gray">#838488</color>
+    <color name="gray_text">#999999</color>
+    <color name="gray_dot">#dadce6</color>
+    <color name="lightgrey">#ff888888</color><!-- 亮灰色 -->
+    <color name="white_transparent">#70ffffff</color>
+    <color name="color_80ffffff">#80ffffff</color>
+    <!-- private phone -->
+    <color name="gray_light">#f1eeee</color>
+    <color name="gray_white">#f8f7f7</color>
+
+    <color name="darkgray">#A9A9A9</color><!--暗灰色 -->
+    <color name="gray_divider">#d9d9d9</color>
+
+    <color name="deepgray">#424242</color>
+    <color name="orange">#FFA500</color><!--橙色 -->
+    <color name="orange_dark">#dd9900</color><!--橙色 -->
+
+
+    <color name="selector_blue">#cfeaff</color>
+
+    <color name="sky_green">#43b75d</color>
+
+    <color name="text_yellow">#FFD700</color>
+
+    <!--亮黄色 -->
+    <color name="yellow">#FFFF00</color><!--黄色 -->
+    <color name="green">#008000</color><!--绿色 -->
+
+    <color name="toggle_button_off_gray">#7f7f7f</color>
+
+    <color name="blue">#0000ff</color>
+    <color name="blue_light">#008ef0</color><!-- 亮蓝色 -->
+    <color name="blue_bg">#e9f3f9</color><!-- 淡蓝色 背景色 -->
+
+    <color name="pull_to_refresh_text">#4C596E</color>
+
+    <color name="bg_default">#f1eeee</color>
+    <color name="bg_default_gray">#f1eeee</color>
+
+    <color name="messages_voice_gray">#666666</color>
+
+    <color name="messages_pop_blue_line">#2e7cae</color>
+
+    <color name="messages_unread_text">#84011f</color>
+    <color name="messages_time_text">#7b859a</color>
+
+    <color name="btn_top_blue_gray_text_color">#d5e9f8</color>
+
+    <color name="call_quality_feedback_excellent">#6da62b</color>
+    <color name="call_quality_feedback_good">#91b70b</color>
+    <color name="call_quality_feedback_poor">#d59314</color>
+    <color name="call_quality_feedback_bad">#ff0000</color>
+
+    <color name="get_credits_blue_color">#325d84</color>
+    <color name="get_credits_light_blue_color">#2491db</color>
+    <color name="get_credits_yellow_color">#ff8a00</color>
+
+    <color name="sponsorpay_offer_blue_color">#0088cc</color>
+
+    <color name="network_signal_bar_color">#76FF03</color>
+    <color name="network_signal_bar_color_background">#0087C9</color>
+    <color name="network_signal_bar_color_4small">#60b4e8</color>
+    <color name="network_signal_bar_color_background_4small">#999999</color>
+
+    <color name="top_title_blue">#008ef0</color>
+
+    <color name="superofferwall_green">#56be8e</color>
+    <color name="superofferwall_yellow">#f3de4f</color>
+
+    <color name="green_button_normal">#55bd8e</color>
+
+    <color name="blue_button_normal">#008ef0</color>
+    <color name="blue_button_pressed">#509ee1</color>
+
+    <!-- 2.4 add ui change -->
+    <color name="app_theme_base_color">#f7f7f7</color>  <!-- 暗白色 -->
+    <color name="bg_deep_gray">#eaeaea</color>  <!-- 浅灰色 -->
+    <color name="tip_text_hint">#a6a6a6</color> <!-- tip文字颜色 -->
+    <color name="app_theme_base_blue">#008ef0</color>
+    <color name="app_theme_base_blue_pressed">#0083cd</color>
+    <color name="app_theme_base_blue_disable">#88008ef0</color>
+    <color name="bg_login_password_edit">#61ade3</color>
+    <color name="bg_login_password_btn">#115c9f</color>
+    <color name="bg_login_password_btn_pressed">#054074</color>
+    <color name="bg_green">#56be8e</color>
+    <color name="bg_green_p">#55aa88</color>
+    <color name="bg_red">#d52b2b</color>
+    <color name="bg_red_p">#c43c3c</color>
+    <color name="bg_red_disable">#fd7f80</color>
+    <color name="gray_pressed">#999999</color>
+    <color name="gray_divide">#d8d8d8</color>
+    <color name="light_gray_transparent">#10101010</color>
+    <color name="bg_item_pressed">#50008ef0</color>
+    <drawable name="custom_dialog_item_press">#ffdddddd</drawable>
+    <drawable name="custom_dialog_item_normal">#00000000</drawable>
+    <color name="custom_dialog_title_bg">#f00083cd</color>
+
+    <color name="blue_deep">#007eec</color>
+    <color name="voice_recording_level">#9a9097</color>
+    <color name="hint_text_color">#838488</color>
+    <color name="offer_detail_text_color">#0088cc</color>
+
+
+    <!-- keypad -->
+    <color name="keypad_backgroud">#f1eeee</color>
+    <color name="keypad_blue_light">#79c0f2</color>
+    <color name="keypad_key_bg">#eaeaea</color>
+    <color name="keypad_general_bg">#1565c0</color>
+    <color name="keypad_genearl_number_key">#4dbef0</color>
+
+    <color name="segmented_radio_button_selected_color">@android:color/white</color>
+    <color name="segmented_radio_button_selected_text_color">@color/app_theme_base_blue</color>
+    <color name="segmented_radio_button_unselected_color">@android:color/transparent</color>
+
+    <!-- chat -->
+    <color name="orange_map">#ffb300</color>
+    <color name="red_contact">#f38585</color>
+    <color name="red_de6767">#de6767</color>
+    <color name="blue_cde0ef">#cde0ef</color>
+    <color name="gray_464646">#464646</color>
+
+    <!-- ad -->
+    <color name="blue_79c1f2">#79c1f2</color>
+    <color name="ad_background">#e2f1fc</color>
+
+    <color name="gray_cbcbcb">#cbcbcb</color>
+
+    <drawable name="popup_menu_item_pressed">#4AACED</drawable>
+    <drawable name="popup_menu_item_normal">#00000000</drawable>
+
+    <color name="blue_a3d1f7">#a3d1f7</color>
+
+    <color name="text_deep_gray">#666666</color>
+    <color name="text_light_gray">#999999</color>
+    <color name="gray_e5e5e5">#e5e5e5</color>
+    <color name="gray_655967">#655967</color>
+
+    <color name="light_gray_text">#a5a5a5</color>
+    <color name="gray_d8d6d6">#d8d6d6</color>
+
+    <color name="orange_ffae00">#ffae00</color>
+
+    <color name="a3d1f7">#a3d1f7</color>
+    <color name="color008ef0">#008ef0</color>
+    <color name="f3f3f3">#f3f3f3</color>
+
+    <color name="bg_progress">#F6A623</color>
+
+
+    <color name="super_offer_wall_dialog_title_bg_color">#FF018EF0</color>
+    <color name="super_offer_wall_dialog_solution_bg_color">#e1f0ff</color>
+
+    <color name="call_records_item_blue_bg_color">#d7edfc</color>
+    <color name="call_records_item_blue_text_color">#56809c</color>
+    <color name="call_records_item_yellow_text_color">#d49703</color>
+    <color name="color_ee7a4f">#EE7A4F</color>
+    <color name="color_cbc3af">#cbc3af</color>
+    <color name="color_47A7F5">#47A7F5</color>
+    <color name="color_FED055">#fed055</color>
+
+    <!--get free traffic-->
+    <color name="get_free_traffic_divider">#FFE6E6E6</color>
+    <color name="get_free_traffic_bg_yellow">#FFFFAC18</color>
+    <color name="banner_native_ad_bg">#fff3f3f3</color>
+
+    <!--campus card-->
+    <color name="campus_card_page_bg">#FFF2F3F5</color>
+    <color name="campus_card_tab_text_color">#4D000000</color>
+
+
+    // 主题色
+    <color name="sky_text_blue">#ff1E86E2</color>
+
+</resources>
